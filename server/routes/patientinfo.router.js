@@ -133,7 +133,21 @@ router.put('/update', (req, res) => {
     })
 })
 
-
 // TODO: DELETE Requests go here
+//* DELETE All(?)
+router.delete('/delete', (req, res) => {
+  // DELETE FROM "table"? -gd
+  let queryText = `
+  
+  `;
+
+  pool.query(queryText) // can add [req.params.id] if needed -gd
+    .then((result) => {
+      res.sendStatus(200);
+    }).catch((error) => {
+      console.log(`ERROR in DELETE: ${error}`);
+      res.sendStatus(500);
+    })
+})
 
 module.exports = router;
