@@ -6,13 +6,22 @@ Shouldn't be too difficult. -gd */
   display: flex;
   flex-direction: column;
   float: left;
-  height: 100%;
 
   margin: 0;
   background-color: #4C1E4F;
   overflow: hidden;
   position: fixed;
   height: 100%;
+}
+
+.som-logo,
+.scf-logo {
+  width: 90px;
+}
+
+.som-logo {
+  position: absolute;
+  bottom: 0px;
 }
 
 /* The following has been untouched. -gd */
