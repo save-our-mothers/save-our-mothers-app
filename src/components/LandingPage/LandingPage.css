@@ -1,3 +1,10 @@
+
+/* This margin-left should be shared in all pages for this
+project to help keep it looking uniform. -gd */
+.container {
+  margin-left: 80px;
+}
+
 /* --------------------------------------------------------------------------------
 Grid
 -------------------------------------------------------------------------------- */
