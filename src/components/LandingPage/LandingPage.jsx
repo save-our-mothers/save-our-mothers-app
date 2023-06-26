@@ -3,15 +3,15 @@ import { useHistory } from 'react-router-dom';
 import './LandingPage.css';
 
 function LandingPage() {
-  const [heading, setHeading] = useState('Welcome');
+  const [heading, setHeading] = useState('Safe Childbirth Foundation');
   const history = useHistory();
 
   return (
     <div className="container">
       <h2>{heading}</h2>
 
-      <div className="grid">
-        <div className="grid-col grid-col_8">
+      <div>
+        <div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
             id felis metus. Vestibulum et pulvinar tortor. Morbi pharetra lacus
