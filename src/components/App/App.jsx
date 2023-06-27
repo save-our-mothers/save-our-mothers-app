@@ -35,6 +35,8 @@ function App() {
     <Router>
       <div>
         <Nav />
+        {/* Added to help keep the pages uniform with the navbar on the left. -gd */}
+        <div className="app-content-div">
         <Switch>
           {/* Visiting localhost:3000 will redirect to localhost:3000/home */}
           <Redirect exact from="/" to="/home" />
@@ -102,6 +104,7 @@ function App() {
             <h1>404</h1>
           </Route>
         </Switch>
+        </div>
         <Footer />
       </div>
     </Router>

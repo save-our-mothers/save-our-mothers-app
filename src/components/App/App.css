@@ -11,6 +11,11 @@ body {
   margin: 0px;
 }
 
+/* Added to keep all other pages uniform -gd */
+.app-content-div {
+  margin-left: 80px;
+}
+
 img {
   display: inline-block;
   max-width: 100%;
