@@ -1,3 +1,7 @@
 .view-border {
   border: 2px solid white;
 }
+
+.view-border:hover {
+  cursor: pointer;
+}
