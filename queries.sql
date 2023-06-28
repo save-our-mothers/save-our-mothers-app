@@ -17,8 +17,11 @@ SELECT
 FROM `patient_data`;   
  
 -- Query for gettins top 10 prescriptions
-SELECT COUNT(DISTINCT `drug`) AS "Prescriptions"
+-- will likely need to revist once we can get data back
+-- count drug
+SELECT COUNT(`drug`) AS "Prescriptions"
 FROM `prescriptions`
+-- group by drug and order by count
 ORDER BY "Prescriptions" DESC
 LIMIT 10;
  
@@ -26,4 +29,4 @@ LIMIT 10;
 
 
 -- Query for getting patient visits
--- Will likely come from 'extended_log' 
+-- Will likely come 'patient_tracker_element' - include @ and ~ for arrived and arrived late
