@@ -2,11 +2,18 @@ html,
 body,
 #react-root {
   height: 100%;
+  background-color: black;
+  color: white;
 }
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px;
+}
+
+/* Added to keep all other pages uniform -gd */
+.app-content-div {
+  margin-left: 80px;
 }
 
 img {

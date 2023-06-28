@@ -35,6 +35,8 @@ function App() {
     <Router>
       <div>
         <Nav />
+        {/* Added to help keep the pages uniform with the navbar on the left. -gd */}
+        <div className="app-content-div">
         <Switch>
           {/* Visiting localhost:3000 will redirect to localhost:3000/home */}
           <Redirect exact from="/" to="/home" />
@@ -42,36 +44,27 @@ function App() {
           {/* Visiting localhost:3000/about will show the about page. */}
           <Route
             // shows AboutPage at all times (logged in or not)
-            exact
-            path="/about"
-          >
+            exact path="/about">
             <AboutPage />
           </Route>
 
-          {/* For protected routes, the view could show one of several things on the same route.
-            Visiting localhost:3000/user will show the UserPage if the user is logged in.
+          {/* Visiting localhost:3000/user will show the UserPage if the user is logged in.
             If the user is not logged in, the ProtectedRoute will show the LoginPage (component).
             Even though it seems like they are different pages, the user is always on localhost:3000/user */}
           <ProtectedRoute
             // logged in shows UserPage else shows LoginPage
-            exact
-            path="/user"
-          >
+            exact path="/user">
             <UserPage />
           </ProtectedRoute>
 
           <ProtectedRoute
             // logged in shows InfoPage else shows LoginPage
-            exact
-            path="/info"
-          >
+            exact path="/info">
             <InfoPage />
           </ProtectedRoute>
 
           <Route
-            exact
-            path="/login"
-          >
+            exact path="/login">
             {user.id ?
               // If the user is already logged in, 
               // redirect to the /user page
@@ -83,9 +76,7 @@ function App() {
           </Route>
 
           <Route
-            exact
-            path="/registration"
-          >
+            exact path="/registration">
             {user.id ?
               // If the user is already logged in, 
               // redirect them to the /user page
@@ -97,9 +88,7 @@ function App() {
           </Route>
 
           <Route
-            exact
-            path="/home"
-          >
+            exact path="/home">
             {user.id ?
               // If the user is already logged in, 
               // redirect them to the /user page
@@ -115,6 +104,7 @@ function App() {
             <h1>404</h1>
           </Route>
         </Switch>
+        </div>
         <Footer />
       </div>
     </Router>
