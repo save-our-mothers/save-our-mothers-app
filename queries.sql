@@ -23,7 +23,7 @@ FROM `patient_data`;
  
 -- Query for gettins top 10 prescriptions
 -- will likely need to revist once we get data back from prod DB
-SELECT COUNT(`drug`) AS "Prescriptions", 'drug' AS "Name"
+SELECT COUNT(`drug`) AS "Prescriptions", `drug` AS "Name"
 FROM `prescriptions`
 GROUP BY `drug`
 ORDER BY "Prescriptions" DESC
