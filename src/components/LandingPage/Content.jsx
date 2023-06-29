@@ -1,13 +1,24 @@
 import React from 'react';
 import { useEffect } from 'react';
-import {useSelector, useDispatch} from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 
 
 function Content() {
-  const chartType = useSelector(store => store.landingPageReducers.chartType)
+  const chartType = useSelector(store => store.landingPageReducers.chartType);
+  const windowStatus = useSelector(store => store.landingPageReducers.windowStatus);
+  const dispatch = useDispatch();
+
+  const closeWindow = () => {
+    if (windowStatus === true) {
+      dispatch({ type: 'TOGGLE_WINDOW_STATUS' });
+    } 
+    dispatch({ type: 'SET_CHART_TYPE', payload: '' });
+  }
+
   return (
 
-    <>
+    <div className="pop-up">
+      <button className="close-btn" onClick={closeWindow}>close</button>
       {
         chartType === 'age' ? (
           <div>
@@ -69,7 +80,7 @@ function Content() {
           </div>
         )
       }
-    </>
+    </div>
   )
 }
 

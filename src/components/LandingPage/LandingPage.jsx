@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import {useSelector, useDispatch} from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import './LandingPage.css';
 
 // Material UI
@@ -17,8 +17,8 @@ function LandingPage() {
   const dispatch = useDispatch();
 
   const expandWindow = (e, chartType) => {
-    dispatch({type: 'SET_CHART_TYPE', payload: chartType})
-    dispatch({type: 'TOGGLE_WINDOW_STATUS'})
+    dispatch({ type: 'SET_CHART_TYPE', payload: chartType })
+    dispatch({ type: 'TOGGLE_WINDOW_STATUS' })
     console.log(`windowStatus changed`)
     console.log(`value: `, chartType)
   }
@@ -31,40 +31,38 @@ function LandingPage() {
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
           <Grid item xs={2} sm={4} md={4}>
             <p>Age Graph</p>
-              <div className="view-border" onClick={(e) => expandWindow(e, 'age')} >
-                <Content
-
-                />
-              </div>
+            <div className="view-border" onClick={(e) => expandWindow(e, 'age')} >
+              <h2>Age stuff here</h2>
+            </div>
           </Grid>
           <Grid item xs={2} sm={4} md={4}>
             <p>Gender Graph</p>
             <div className="view-border" onClick={(e) => expandWindow(e, 'gender')} >
-              <Content />
+            <h2>Gender stuff here</h2>
             </div>
           </Grid>
           <Grid item xs={2} sm={4} md={4}>
             <p>Family Size Graph</p>
             <div className="view-border" onClick={(e) => expandWindow(e, 'family-size')} >
-              <Content />
+            <h2>Family stuff here</h2>
             </div>
           </Grid>
           <Grid item xs={2} sm={4} md={4}>
             <p>Top 10 Prescriptions Graph</p>
             <div className="view-border" onClick={(e) => expandWindow(e, 'prescriptions')} >
-              <Content />
+            <h2>Prescription stuff here</h2>
             </div>
           </Grid>
           <Grid item xs={2} sm={4} md={4}>
             <p>Geo Location Map</p>
             <div className="view-border" onClick={(e) => expandWindow(e, 'map')} >
-              <Content />
+            <h2>Map stuff here</h2>
             </div>
           </Grid>
           <Grid item xs={2} sm={4} md={4}>
             <p>Number of Patients Chart</p>
             <div className="view-border" onClick={(e) => expandWindow(e, '#-of-patients')} >
-              <Content />
+            <h2>Patient count stuff here</h2>
             </div>
           </Grid>
         </Grid>
