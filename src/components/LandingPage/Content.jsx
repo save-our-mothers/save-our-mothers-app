@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux'
+import './Content.css'
 
 
 function Content() {
@@ -17,11 +18,11 @@ function Content() {
 
   return (
 
-    <div className="pop-up">
+    <div className="popup">
       <button className="close-btn" onClick={closeWindow}>close</button>
       {
         chartType === 'age' ? (
-          <div>
+          <div className="content-div">
             <h3>Age</h3>
             <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
             <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
@@ -30,7 +31,7 @@ function Content() {
             </p>
           </div>
         ) : chartType === 'gender' ? (
-          <div>
+          <div className="content-div">
             <h3>Gender</h3>
             <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
             <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
@@ -39,7 +40,7 @@ function Content() {
             </p>
           </div>
         ) : chartType === 'family-size' ? (
-          <div>
+          <div className="content-div">
             <h3>Family Size</h3>
             <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
             <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
@@ -48,7 +49,7 @@ function Content() {
             </p>
           </div>
         ) : chartType === 'prescriptions' ? (
-          <div>
+          <div className="content-div">
             <h3>Top 10 Prescription</h3>
             <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
             <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
@@ -57,7 +58,7 @@ function Content() {
             </p>
           </div>
         ) : chartType === 'map' ? (
-          <div>
+          <div className="content-div">
             <h3>Geo Location Map</h3>
             <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
             <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
@@ -66,7 +67,7 @@ function Content() {
             </p>
           </div>
         ) : chartType === '#-of-patients' ? (
-          <div>
+          <div className="content-div">
             <h3>Number of Patients</h3>
             <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
             <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
@@ -75,7 +76,7 @@ function Content() {
             </p>
           </div>
         ) : (
-          <div>
+          <div className="content-div">
             <h2>Please Select a View</h2>
           </div>
         )
