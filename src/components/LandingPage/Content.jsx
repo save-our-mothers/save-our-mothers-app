@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux'
+import Button from '@mui/material/Button';
 import './Content.css'
 
 
@@ -19,7 +20,7 @@ function Content() {
   return (
 
     <div className="popup">
-      <button className="close-btn" onClick={closeWindow}>close</button>
+      <Button color="secondary" className="close-btn" onClick={closeWindow}>close</Button>
       {
         chartType === 'age' ? (
           <div className="content-div">
