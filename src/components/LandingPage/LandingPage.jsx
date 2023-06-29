@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import {useSelector, useDispatch} from 'react-redux'
 import './LandingPage.css';
 
 // Material UI
@@ -11,14 +12,15 @@ import Content from './Content.jsx'
 
 function LandingPage() {
   const [heading, setHeading] = useState('Safe Childbirth Foundation');
-  const [chartType, setChartType] = useState('');
-  const [windowStatus, setWindowStatus] = useState(false);
+  const windowStatus = useSelector(store => store.landingPageReducers.windowStatus)
   const history = useHistory();
+  const dispatch = useDispatch();
 
-  const expandWindow = (e, type) => {
-    setWindowStatus(!windowStatus);
+  const expandWindow = (e, chartType) => {
+    dispatch({type: 'SET_CHART_TYPE', payload: chartType})
+    dispatch({type: 'TOGGLE_WINDOW_STATUS'})
     console.log(`windowStatus changed`)
-    console.log(`value: `, type)
+    console.log(`value: `, chartType)
   }
 
   return (
@@ -31,10 +33,7 @@ function LandingPage() {
             <p>Age Graph</p>
               <div className="view-border" onClick={(e) => expandWindow(e, 'age')} >
                 <Content
-                  windowStatus={windowStatus}
-                  setWindowStatus={setWindowStatus}
-                  chartType={chartType}
-                  setChartType={setChartType}
+
                 />
               </div>
           </Grid>
