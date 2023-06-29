@@ -1,3 +1,5 @@
+//patientinfo.router.js
+
 const express = require('express');
 const pool = require('../modules/pool');
 const router = express.Router();
@@ -5,21 +7,22 @@ const router = express.Router();
 
 // TODO: GET Requests go here
 //* GET Age
-router.get('/age', (req, res) => {
-  console.log(`In Age`) // testing -gd
-  // GET query will go here. Will finish once the query is completed. -gd
-  const queryText = `
-    
-  `;
+router.get('/ages', (req, res) => {
+  console.log('GET /ages');
+  const queryText = 'SELECT * FROM ages';
 
-  pool.query(queryText, [req.user.id]) // req.user.id can change accordingly -gd
+  pool
+    .query(queryText)
     .then((result) => {
       res.send(result.rows);
-    }).catch(error => {
+    })
+    .catch((error) => {
       console.log(`ERROR in GET Age: ${error}`);
       res.sendStatus(500);
-    })
-}); // end Age
+    });
+});
+
+
 
 //* GET Gender
 router.get('/gender', (req, res) => {

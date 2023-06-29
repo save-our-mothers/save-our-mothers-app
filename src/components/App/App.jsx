@@ -10,17 +10,17 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import Nav from '../Nav/Nav';
 import Footer from '../Footer/Footer';
-
 import ProtectedRoute from '../ProtectedRoute/ProtectedRoute';
-
 import AboutPage from '../AboutPage/AboutPage';
 import UserPage from '../UserPage/UserPage';
 import InfoPage from '../InfoPage/InfoPage';
 import LandingPage from '../LandingPage/LandingPage';
 import LoginPage from '../LoginPage/LoginPage';
 import RegisterPage from '../RegisterPage/RegisterPage';
-
 import './App.css';
+import Julie from '../Jchart/Jchart';
+
+
 
 function App() {
   const dispatch = useDispatch();
@@ -98,6 +98,14 @@ function App() {
               <LandingPage />
             }
           </Route>
+
+          <Route exact path="/julie">
+            <Julie />
+          </Route>
+
+
+
+
 
           {/* If none of the other routes matched, we will show a 404. */}
           <Route>

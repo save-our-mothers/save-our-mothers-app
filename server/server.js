@@ -27,7 +27,7 @@ app.use(passport.session());
 /* Routes */
 app.use('/api/user', userRouter);
 //TODO adding patientRouter -gd
-app.use('/app/patient-router', patientRouter);
+app.use('/api/', patientRouter);
 app.use('/api/openemr', sourceRouter);
 
 // Serve static files
