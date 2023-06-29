@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux'
 import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
 import './Content.css'
 
 
@@ -29,6 +30,12 @@ function Content() {
               <p>I'm testing the size and height. It can probably be changed later,
                 but this seems pretty good from what I can tell.
               </p>
+              <Stack direction="row" spacing={1}>
+                <b>View by Age Range:</b>
+                <Button color="success" variant="contained" size="small" >5 - 17</Button>
+                <Button color="success" variant="contained" size="small" >18 - 30</Button>
+                <Button color="success" variant="contained" size="small" >Over 30</Button>
+              </Stack>
             </div>
           ) : chartType === 'gender' ? (
             <div className="content-div">
@@ -47,6 +54,12 @@ function Content() {
               <p>I'm testing the size and height. It can probably be changed later,
                 but this seems pretty good from what I can tell.
               </p>
+              <Stack direction="row" spacing={1}>
+                <b>View by Family Size:</b>
+                <Button color="success" variant="contained" size="small" >1 - 5</Button>
+                <Button color="success" variant="contained" size="small" >6 - 10</Button>
+                <Button color="success" variant="contained" size="small" >Over 10</Button>
+              </Stack>
             </div>
           ) : chartType === 'prescriptions' ? (
             <div className="content-div">
@@ -74,6 +87,14 @@ function Content() {
               <p>I'm testing the size and height. It can probably be changed later,
                 but this seems pretty good from what I can tell.
               </p>
+              <Stack direction="row" spacing={1}>
+                <b>View Over Time:</b>
+                <Button color="success" variant="contained" size="small" >Weekly</Button>
+                <Button color="success" variant="contained" size="small" >Monthly</Button>
+                <Button color="success" variant="contained" size="small" >Quarterly</Button>
+                <Button color="success" variant="contained" size="small" >Annually</Button>
+                <Button color="success" variant="contained" size="small" >Overall</Button>
+              </Stack>
             </div>
           ) : (
             <div className="content-div">
@@ -82,7 +103,7 @@ function Content() {
           )
         }
       </div>
-      <Button color="secondary" variant="outlined" size="small" className="close-btn" onClick={closeWindow}>close</Button>
+      <Button color="error" variant="outlined" size="small" className="close-btn" onClick={closeWindow}>close</Button>
     </div>
   )
 }
