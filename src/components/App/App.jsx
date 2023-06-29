@@ -26,6 +26,13 @@ function App() {
   const dispatch = useDispatch();
 
   const user = useSelector(store => store.user);
+  const windowStatus = useSelector(store => store.landingPageReducers.windowStatus);
+
+  if (windowStatus === true) {
+    document.body.classList.add('active-blur')
+  } else {
+    document.body.classList.remove('active-blur')
+  }
 
   useEffect(() => {
     dispatch({ type: 'FETCH_USER' });
@@ -33,7 +40,6 @@ function App() {
 
   return (
     <Router>
-      <div>
         <Nav />
         {/* Added to help keep the pages uniform with the navbar on the left. -gd */}
         <div className="app-content-div">
@@ -89,14 +95,7 @@ function App() {
 
           <Route
             exact path="/home">
-            {user.id ?
-              // If the user is already logged in, 
-              // redirect them to the /user page
-              <Redirect to="/user" />
-              :
-              // Otherwise, show the Landing page
               <LandingPage />
-            }
           </Route>
 
           {/* If none of the other routes matched, we will show a 404. */}
@@ -106,7 +105,6 @@ function App() {
         </Switch>
         </div>
         <Footer />
-      </div>
     </Router>
   );
 }

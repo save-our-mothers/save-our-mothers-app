@@ -1,52 +1,77 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux'
 import './LandingPage.css';
+
+// Material UI
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
+
+// Content Import will hold all graphs, potentially -gd
+import Content from './Content.jsx'
 
 function LandingPage() {
   const [heading, setHeading] = useState('Safe Childbirth Foundation');
+  const windowStatus = useSelector(store => store.landingPageReducers.windowStatus)
   const history = useHistory();
+  const dispatch = useDispatch();
+
+  const expandWindow = (e, chartType) => {
+    dispatch({ type: 'SET_CHART_TYPE', payload: chartType })
+    dispatch({ type: 'TOGGLE_WINDOW_STATUS' })
+    
+  }
 
   return (
     <div className="container">
       <h2>{heading}</h2>
 
-      <div>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            id felis metus. Vestibulum et pulvinar tortor. Morbi pharetra lacus
-            ut ex molestie blandit. Etiam et turpis sit amet risus mollis
-            interdum. Suspendisse et justo vitae metus bibendum fringilla sed
-            sed justo. Aliquam sollicitudin dapibus lectus, vitae consequat odio
-            elementum eget. Praesent efficitur eros vitae nunc interdum, eu
-            interdum justo facilisis. Sed pulvinar nulla ac dignissim efficitur.
-            Quisque eget eros metus. Vestibulum bibendum fringilla nibh a
-            luctus. Duis a sapien metus.
-          </p>
-
-          <p>
-            Praesent consectetur orci dui, id elementum eros facilisis id. Sed
-            id dolor in augue porttitor faucibus eget sit amet ante. Nunc
-            consectetur placerat pharetra. Aenean gravida ex ut erat commodo, ut
-            finibus metus facilisis. Nullam eget lectus non urna rhoncus
-            accumsan quis id massa. Curabitur sit amet dolor nisl. Proin
-            euismod, augue at condimentum rhoncus, massa lorem semper lacus, sed
-            lobortis augue mi vel felis. Duis ultrices sapien at est convallis
-            congue.
-          </p>
-
-          <p>
-            Fusce porta diam ac tortor elementum, ut imperdiet metus volutpat.
-            Suspendisse posuere dapibus maximus. Aliquam vitae felis libero. In
-            vehicula sapien at semper ultrices. Vivamus sed feugiat libero. Sed
-            sagittis neque id diam euismod, ut egestas felis ultricies. Nullam
-            non fermentum mauris. Sed in enim ac turpis faucibus pretium in sit
-            amet nisi.
-          </p>
-        </div>
-
-
-      </div>
+      <Box sx={{ flexGrow: 1 }}>
+        {
+          windowStatus === false ? (
+            <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+              <Grid item xs={2} sm={4} md={4}>
+                <p>Age Graph</p>
+                <div className="view-border" onClick={(e) => expandWindow(e, 'age')} >
+                  <h2>Age stuff here</h2>
+                </div>
+              </Grid>
+              <Grid item xs={2} sm={4} md={4}>
+                <p>Gender Graph</p>
+                <div className="view-border" onClick={(e) => expandWindow(e, 'gender')} >
+                  <h2>Gender stuff here</h2>
+                </div>
+              </Grid>
+              <Grid item xs={2} sm={4} md={4}>
+                <p>Family Size Graph</p>
+                <div className="view-border" onClick={(e) => expandWindow(e, 'family-size')} >
+                  <h2>Family stuff here</h2>
+                </div>
+              </Grid>
+              <Grid item xs={2} sm={4} md={4}>
+                <p>Top 10 Prescriptions Graph</p>
+                <div className="view-border" onClick={(e) => expandWindow(e, 'prescriptions')} >
+                  <h2>Prescription stuff here</h2>
+                </div>
+              </Grid>
+              <Grid item xs={2} sm={4} md={4}>
+                <p>Geo Location Map</p>
+                <div className="view-border" onClick={(e) => expandWindow(e, 'map')} >
+                  <h2>Map stuff here</h2>
+                </div>
+              </Grid>
+              <Grid item xs={2} sm={4} md={4}>
+                <p>Number of Patients Chart</p>
+                <div className="view-border" onClick={(e) => expandWindow(e, '#-of-patients')} >
+                  <h2>Patient count stuff here</h2>
+                </div>
+              </Grid>
+            </Grid>
+          ) : (
+            <Content />
+          )
+        }
+      </Box>
     </div>
   );
 }
