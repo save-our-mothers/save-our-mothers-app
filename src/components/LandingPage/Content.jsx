@@ -1,9 +1,10 @@
 import React from 'react';
 import { useEffect } from 'react';
+import {useSelector, useDispatch} from 'react-redux'
 
-function Content({ windowStatus, setWindowStatus, chartType, setChartType }) {
-  console.log(windowStatus)
 
+function Content() {
+  const chartType = useSelector(store => store.landingPageReducers.chartType)
   return (
 
     <>
@@ -28,16 +29,16 @@ function Content({ windowStatus, setWindowStatus, chartType, setChartType }) {
           </div>
         ) : chartType === 'family-size' ? (
           <div>
-            <h3>Gender</h3>
+            <h3>Family Size</h3>
             <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
             <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
             <p>I'm testing the size and height. It can probably be changed later,
               but this seems pretty good from what I can tell.
             </p>
           </div>
-        ) : chartType === 'prescription' ? (
+        ) : chartType === 'prescriptions' ? (
           <div>
-            <h3>Gender</h3>
+            <h3>Top 10 Prescription</h3>
             <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
             <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
             <p>I'm testing the size and height. It can probably be changed later,
@@ -46,7 +47,7 @@ function Content({ windowStatus, setWindowStatus, chartType, setChartType }) {
           </div>
         ) : chartType === 'map' ? (
           <div>
-            <h3>Gender</h3>
+            <h3>Geo Location Map</h3>
             <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
             <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
             <p>I'm testing the size and height. It can probably be changed later,
@@ -55,7 +56,7 @@ function Content({ windowStatus, setWindowStatus, chartType, setChartType }) {
           </div>
         ) : chartType === '#-of-patients' ? (
           <div>
-            <h3>Gender</h3>
+            <h3>Number of Patients</h3>
             <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
             <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
             <p>I'm testing the size and height. It can probably be changed later,
