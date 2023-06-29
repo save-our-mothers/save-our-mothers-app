@@ -6,14 +6,16 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(6px);
+  padding: 12px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.popup .close-btn {
-  cursor: pointer;
+.popup-whole {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .popup-inner {
