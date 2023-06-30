@@ -23,10 +23,14 @@ function Nav() {
         About
       </Link>
 
+
+  
       <Link className="navLink" to="/julie">
         Julie
       </Link>
-
+      <Link className="navLink" to="/Jfam">
+        Family Range
+      </Link>
 
 
       {/* If a user is logged in, show these links */}

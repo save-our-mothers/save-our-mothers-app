@@ -19,7 +19,7 @@ import LoginPage from '../LoginPage/LoginPage';
 import RegisterPage from '../RegisterPage/RegisterPage';
 import './App.css';
 import Julie from '../Jchart/Jchart';
-
+import Jfam from '../Jfam/Jfam';
 
 
 function App() {
@@ -99,10 +99,13 @@ function App() {
             }
           </Route>
 
+ 
           <Route exact path="/julie">
             <Julie />
           </Route>
-
+          <Route exact path="/jfam">
+            <Jfam />
+          </Route>
 
 
 

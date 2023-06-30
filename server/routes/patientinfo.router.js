@@ -43,20 +43,20 @@ router.get('/gender', (req, res) => {
 
 //* GET Family Size
 router.get('/family-size', (req, res) => {
-  console.log(`In Family Size`) // testing -gd
-  // GET query will go here. Will finish once the query is completed. -gd
-  const queryText = `
-    
-  `;
+  console.log('GET /family-size');
+  const queryText = 'SELECT * FROM family_size';
 
-  pool.query(queryText, [req.user.id]) // req.user.id can change accordingly -gd
+  pool
+    .query(queryText)
     .then((result) => {
       res.send(result.rows);
-    }).catch(error => {
+    })
+    .catch((error) => {
       console.log(`ERROR in GET Family Size: ${error}`);
       res.sendStatus(500);
-    })
-}); // end Family Size
+    });
+});
+ // end Family Size
 
 //* GET Geo-Location
 router.get('/geo-location', (req, res) => {
@@ -117,6 +117,25 @@ router.post('/', (req, res) => {
   //* I can do after we get our database looking more complete -gd
 });
 
+
+
+router.post('/ages', (req, res) => {
+  const { range, count } = req.body;
+
+  const query = 'INSERT INTO ages ("range", "count") VALUES ($1, $2) RETURNING *';
+  const values = [range, count];
+
+  pool.query(query, values)
+    .then((result) => {
+      const insertedRow = result.rows[0];
+      res.send(insertedRow);
+    })
+    .catch((error) => {
+      console.log('Error inserting data:', error);
+      res.sendStatus(500);
+    });
+});
+
 // TODO: PUT Requests go here
 //* PUT Database Request
 router.put('/update', (req, res) => {
@@ -135,6 +154,27 @@ router.put('/update', (req, res) => {
       res.sendStatus(500);
     })
 })
+router.put('/ages/:id', (req, res) => {
+  const { id } = req.params;
+  const { range, count } = req.body;
+
+  const query = 'UPDATE ages SET "range" = $1, "count" = $2 WHERE id = $3 RETURNING *';
+  const values = [range, count, id];
+
+  pool.query(query, values)
+    .then((result) => {
+      const updatedRow = result.rows[0];
+      res.send(updatedRow);
+    })
+    .catch((error) => {
+      console.log('Error updating data:', error);
+      res.sendStatus(500);
+    });
+});
+
+
+
+
 
 // TODO: DELETE Requests go here
 //* DELETE All(?)
@@ -152,5 +192,21 @@ router.delete('/delete', (req, res) => {
       res.sendStatus(500);
     })
 })
+
+router.delete('/ages/:id', (req, res) => {
+  const { id } = req.params;
+
+  const query = 'DELETE FROM ages WHERE id = $1';
+  const values = [id];
+
+  pool.query(query, values)
+    .then(() => {
+      res.sendStatus(200);
+    })
+    .catch((error) => {
+      console.log('Error deleting data:', error);
+      res.sendStatus(500);
+    });
+});
 
 module.exports = router;
