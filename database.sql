@@ -24,15 +24,27 @@ CREATE TABLE "locations" (
 	"count" INT NOT NULL
 );
 
+INSERT INTO locations (neighborhood, city, count) VALUES
+  ('Neighborhood 1', 'City A', 20),
+  ('Neighborhood 2', 'City B', 15),
+  ('Neighborhood 3', 'City C', 10),
+  ('Neighborhood 4', 'City A', 25),
+  ('Neighborhood 5', 'City B', 18),
+  ('Neighborhood 6', 'City C', 12);
+
+
+
+
+
 
 CREATE TABLE "patients_unique" (
 	"id" SERIAL PRIMARY KEY,
 	"count" INT NOT NULL,
 	"gender" VARCHAR NOT NULL
 );
-INSERT INTO "patients_unique" ("count", "gender") VALUES (5, 'Male');
-INSERT INTO "patients_unique" ("count", "gender") VALUES (7, 'Female');
-INSERT INTO "patients_unique" ("count", "gender") VALUES (3, 'Other');
+INSERT INTO "patients_unique" ("count", "gender") VALUES (60, 'Male');
+INSERT INTO "patients_unique" ("count", "gender") VALUES (70, 'Female');
+INSERT INTO "patients_unique" ("count", "gender") VALUES (30, 'Other');
 
 
 

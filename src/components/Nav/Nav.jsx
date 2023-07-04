@@ -12,6 +12,28 @@ function Nav() {
   return (
     <div className="navlinks">
       <img className="scf-logo" src={SafeChildbirthLogo}/>
+   
+
+
+      <Link className="navLink" to="/Junique">
+        Unique
+      </Link>
+      <Link className="navLink" to="/julie">
+        Age Range
+      </Link>
+      <Link className="navLink" to="/Jfam">
+        Family Range
+      </Link>
+      <Link className="navLink" to="/Jgender">
+        Gender 
+      </Link>
+      <Link className="navLink" to="/Jvisits">
+        Visits
+      </Link>
+      <Link className="navLink" to="/Jmap">
+        Map
+      </Link>
+      
       <Link className="navLink" to="/">
         Dashboard
       </Link>
@@ -23,14 +45,6 @@ function Nav() {
         About
       </Link>
 
-
-  
-      <Link className="navLink" to="/julie">
-        Julie
-      </Link>
-      <Link className="navLink" to="/Jfam">
-        Family Range
-      </Link>
 
 
       {/* If a user is logged in, show these links */}

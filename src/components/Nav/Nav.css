@@ -45,3 +45,16 @@ Shouldn't be too difficult. -gd */
   background-color: #68326b;
   transition: all .5s ease;
 }
+.chartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px); /* Adjust the height as needed */
+  margin-top: 50px;
+  width: 90%; 
+}
+.chart {
+  height: 400px; /* Adjust the height as needed */
+  margin-top: 20px; /* Adjust the margin-top as needed */
+  width: 90%; 
+}
