@@ -12,7 +12,8 @@ CREATE TABLE "user" (
 
 CREATE TABLE "prescriptions" (
 	"id" SERIAL PRIMARY KEY,
-	"drug_name" VARCHAR NOT NULL
+	"drug_name" VARCHAR NOT NULL,
+	"count" INT NOT NULL
 );
 
 CREATE TABLE "ages" (
