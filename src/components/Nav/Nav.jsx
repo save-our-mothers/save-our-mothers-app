@@ -12,41 +12,25 @@ function Nav() {
   return (
     <div className="navlinks">
       <img className="scf-logo" src={SafeChildbirthLogo}/>
-   
-
-
-      <Link className="navLink" to="/Junique">
-        Unique
-      </Link>
-      <Link className="navLink" to="/julie">
-        Age Range
-      </Link>
-      <Link className="navLink" to="/Jfam">
-        Family Range
-      </Link>
-      <Link className="navLink" to="/Jgender">
-        Gender 
-      </Link>
-      <Link className="navLink" to="/Jvisits">
-        Visits
-      </Link>
-      <Link className="navLink" to="/Jmap">
-        Map
-      </Link>
-      
       <Link className="navLink" to="/">
         Dashboard
       </Link>
-      {/* We can remove this Link if not needed -gd */}
-      <Link className="navLink" to="/info">
-        Info Page
-      </Link>
+      {/* If a user is logged in, show these links */}
+      {user.id && (
+        <>
+          <Link className="navLink" to="/user">
+            User Page
+          </Link>
+          {/* <LogOutButton className="navLink" /> */}
+          {/* We can remove this Link if not needed -gd */}
+          <Link className="navLink" to="/info">
+            Info Page
+          </Link>
+        </>
+      )}
       <Link className="navLink" to="/about">
         About
       </Link>
-
-
-
       {/* If a user is logged in, show these links */}
       {user.id && (
         <>
