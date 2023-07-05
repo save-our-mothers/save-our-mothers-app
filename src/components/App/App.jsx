@@ -59,6 +59,12 @@ function App() {
           </ProtectedRoute>
 
           <ProtectedRoute
+            // added this for testing, feel free to out the chart where you want -Jake
+            exact path="/prescriptions">
+            <TopMeds />
+          </ProtectedRoute>
+
+          <ProtectedRoute
             // logged in shows InfoPage else shows LoginPage
             exact path="/info">
             <InfoPage />
