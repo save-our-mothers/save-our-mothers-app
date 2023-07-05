@@ -31,12 +31,6 @@ function Nav() {
       <Link className="navLink" to="/about">
         About
       </Link>
-      {/* If a user is logged in, show these links */}
-      {user.id && (
-        <>
-          <LogOutButton className="navLink" />
-        </>
-      )}
       <img className="som-logo" src={SaveOurMothersLogo} />
     </div>
   );
