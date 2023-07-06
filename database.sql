@@ -61,17 +61,92 @@ INSERT INTO "patients_unique" ("count", "gender") VALUES (30, 'Other');
 
 
 
-CREATE TABLE "patient_visits" (
-	"id" SERIAL PRIMARY KEY,
-	"count" INT NOT NULL,
-	"type" VARCHAR NOT NULL
-);
-INSERT INTO "patient_visits" ("count", "type") VALUES (15, 'Routine Check-up');
-INSERT INTO "patient_visits" ("count", "type") VALUES (10, 'Specialist Appointment');
-INSERT INTO "patient_visits" ("count", "type") VALUES (5, 'Emergency Visit');
+-- CREATE TABLE "patient_visits" (
+-- 	"id" SERIAL PRIMARY KEY,
+-- 	"count" INT NOT NULL,
+-- 	"type" VARCHAR NOT NULL
+-- );
+-- INSERT INTO "patient_visits" ("count", "type") VALUES (15, 'Routine Check-up');
+-- INSERT INTO "patient_visits" ("count", "type") VALUES (10, 'Specialist Appointment');
+-- INSERT INTO "patient_visits" ("count", "type") VALUES (5, 'Emergency Visit');
 
-SELECT SUM("count") AS total_patients FROM "patients_unique";
-SELECT "type", "count" FROM "patient_visits";
+-- SELECT SUM("count") AS total_patients FROM "patients_unique";
+-- SELECT "type", "count" FROM "patient_visits";
+
+CREATE TABLE patient_visits (
+  id SERIAL PRIMARY KEY,
+  year INT NOT NULL,
+  year_total INT NOT NULL,
+  week_1 INT,
+  week_2 INT,
+  week_3 INT,
+  week_4 INT,
+  week_5 INT,
+  week_6 INT,
+  week_7 INT,
+  week_8 INT,
+  week_9 INT,
+  week_10 INT,
+  week_11 INT,
+  week_12 INT,
+  week_13 INT,
+  week_14 INT,
+  week_15 INT,
+  week_16 INT,
+  week_17 INT,
+  week_18 INT,
+  week_19 INT,
+  week_20 INT,
+  week_21 INT,
+  week_22 INT,
+  week_23 INT,
+  week_24 INT,
+  week_25 INT,
+  week_26 INT,
+  week_27 INT,
+  week_28 INT,
+  week_29 INT,
+  week_30 INT,
+  week_31 INT,
+  week_32 INT,
+  week_33 INT,
+  week_34 INT,
+  week_35 INT,
+  week_36 INT,
+  week_37 INT,
+  week_38 INT,
+  week_39 INT,
+  week_40 INT,
+  week_41 INT,
+  week_42 INT,
+  week_43 INT,
+  week_44 INT,
+  week_45 INT,
+  week_46 INT,
+  week_47 INT,
+  week_48 INT,
+  week_49 INT,
+  week_50 INT,
+  week_51 INT,
+  week_52 INT,
+  month_1 INT,
+  month_2 INT,
+  month_3 INT,
+  month_4 INT,
+  month_5 INT,
+  month_6 INT,
+  month_7 INT,
+  month_8 INT,
+  month_9 INT,
+  month_10 INT,
+  month_11 INT,
+  month_12 INT
+  Q_1 INT,
+  Q_2 INT,
+  Q_3 INT,
+  Q_4 INT,
+);
+
 
 
 
