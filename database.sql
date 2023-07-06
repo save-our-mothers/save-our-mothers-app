@@ -5,10 +5,6 @@
 -- ex. SELECT * FROM "user";
 -- Otherwise you will have errors!
 
-$ npm install --save echarts-for-react
-
-# `echarts` is the peerDependence of `echarts-for-react`, you can install echarts with your own version.
-$ npm install --save echarts
 
 CREATE TABLE "user" (
     "id" SERIAL PRIMARY KEY,
