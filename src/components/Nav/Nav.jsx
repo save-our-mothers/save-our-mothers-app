@@ -11,23 +11,26 @@ function Nav() {
 
   return (
     <div className="navlinks">
-      <img className="scf-logo" src={SafeChildbirthLogo}/>
+      <img className="scf-logo" src={SafeChildbirthLogo} />
       <Link className="navLink" to="/">
         Dashboard
-      </Link>
-      {/* We can remove this Link if not needed -gd */}
-      <Link className="navLink" to="/info">
-        Info Page
-      </Link>
-      <Link className="navLink" to="/about">
-        About
       </Link>
       {/* If a user is logged in, show these links */}
       {user.id && (
         <>
-          <LogOutButton className="navLink" />
+          <Link className="navLink" to="/user">
+            User Page
+          </Link>
+          {/* <LogOutButton className="navLink" /> */}
+          {/* We can remove this Link if not needed -gd */}
+          <Link className="navLink" to="/info">
+            Info Page
+          </Link>
         </>
       )}
+      <Link className="navLink" to="/about">
+        About
+      </Link>
       <img className="som-logo" src={SaveOurMothersLogo} />
     </div>
   );

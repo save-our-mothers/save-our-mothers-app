@@ -1,0 +1,10 @@
+.view-border {
+  border: 2px solid #68326b;
+  border-radius: 0px 10px 10px;
+}
+
+.view-border:hover {
+  cursor: pointer;
+  background-color: #68326b;
+  transition: all .2s ease;
+}
