@@ -6,6 +6,13 @@ import Stack from '@mui/material/Stack';
 import './Content.css'
 
 
+import Julie from '../Jchart/Jchart';
+import Jfam from '../Jfam/Jfam';
+import Jgender from '../Jgender/Jgender';
+import Jvisits from '../Jvisits/Jvisits';
+import Jmap from '../Jmap/Jmap';
+import Junique from '../Junique/Junique';
+
 function Content() {
   const chartType = useSelector(store => store.landingPageReducers.chartType);
   const windowStatus = useSelector(store => store.landingPageReducers.windowStatus);
@@ -25,10 +32,8 @@ function Content() {
           chartType === 'age' ? (
             <div className="content-div">
               <h3>Age</h3>
-              <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
-              <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
-              <p>I'm testing the size and height. It can probably be changed later,
-                but this seems pretty good from what I can tell.
+              <p>
+                <Julie />
               </p>
               <Stack direction="row" spacing={1}>
                 <b>View by Age Range:</b>
@@ -40,8 +45,7 @@ function Content() {
           ) : chartType === 'gender' ? (
             <div className="content-div">
               <h3>Gender</h3>
-              <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
-              <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
+            <Jgender />
               <p>I'm testing the size and height. It can probably be changed later,
                 but this seems pretty good from what I can tell.
               </p>
@@ -49,8 +53,7 @@ function Content() {
           ) : chartType === 'family-size' ? (
             <div className="content-div">
               <h3>Family Size</h3>
-              <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
-              <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
+             <Jfam />
               <p>I'm testing the size and height. It can probably be changed later,
                 but this seems pretty good from what I can tell.
               </p>
@@ -73,8 +76,7 @@ function Content() {
           ) : chartType === 'map' ? (
             <div className="content-div">
               <h3>Geo Location Map</h3>
-              <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
-              <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
+              <Jmap />
               <p>I'm testing the size and height. It can probably be changed later,
                 but this seems pretty good from what I can tell.
               </p>
@@ -82,8 +84,7 @@ function Content() {
           ) : chartType === '#-of-patients' ? (
             <div className="content-div">
               <h3>Number of Patients</h3>
-              <p>lorem ipsum calorum pursuant unpontia torentia munis. sup erca lifra gilist egexpia lidos hus.</p>
-              <p>caloris fruignei moris brontix munis. famigla ageis genda cise.</p>
+           <Junique />
               <p>I'm testing the size and height. It can probably be changed later,
                 but this seems pretty good from what I can tell.
               </p>
