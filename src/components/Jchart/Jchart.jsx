@@ -153,7 +153,7 @@ function Age() {
   };
 
   return (
-    <div>
+    <div className="age-div">
       <div>
         <ReactECharts
           option={option1}
