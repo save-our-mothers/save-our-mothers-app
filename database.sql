@@ -15,6 +15,16 @@ CREATE TABLE "prescriptions" (
 	"drug_name" VARCHAR NOT NULL,
 	"count" INT NOT NULL
 );
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Amoxicillin Cap 500mg');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Paracetamol Tab 500mg');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Amoxicillin Cap/Tab 250mg');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Ferro Sulfate Tab');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Magnesium Trisilicate 500mg');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Metronidazole Tab 200mg');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Amoxicillin Syrup 250/125mg');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Metronidazole & Norfloxacin Syrup 100mg/5ml');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Ceftriaxone Injection 1g');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Ringer Lactate Solution 500ml');
 
 
 

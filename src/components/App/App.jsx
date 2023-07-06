@@ -15,6 +15,8 @@ import InfoPage from '../InfoPage/InfoPage';
 import LandingPage from '../LandingPage/LandingPage';
 import LoginPage from '../LoginPage/LoginPage';
 import RegisterPage from '../RegisterPage/RegisterPage';
+import TopMeds from '../TopMeds/TopMeds';
+
 import './App.css';
 
 
@@ -64,6 +66,12 @@ function App() {
             // logged in shows UserPage else shows LoginPage
             exact path="/user">
             <UserPage />
+          </ProtectedRoute>
+
+          <ProtectedRoute
+            // added this for testing, feel free to out the chart where you want -Jake
+            exact path="/prescriptions">
+            <TopMeds />
           </ProtectedRoute>
 
           <ProtectedRoute
