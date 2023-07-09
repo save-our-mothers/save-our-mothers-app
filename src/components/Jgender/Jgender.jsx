@@ -12,14 +12,14 @@ function Jgender() {
     const myChart = echarts.init(chartDom);
 
     const option = {
-      backgroundColor: '#2c343c',
+      backgroundColor: 'transparent',
       title: {
         text: 'Gender Distribution',
         left: 'center',
         top: 20,
         textStyle: {
           color: '#ccc',
-        },
+        }
       },
       tooltip: {
         trigger: 'axis',
@@ -40,17 +40,22 @@ function Jgender() {
       xAxis: {
         type: 'category',
         data: ['Male', 'Female', 'Other'],
+        axisLabel: {
+          color: 'white'
+        }
       },
-      yAxis: {},
+      yAxis: {
+        
+      },
       series: [
         {
           type: 'bar',
           data: [10, 15, 5],
           itemStyle: {
             color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-              { offset: 0, color: '#00FF00' },
-              { offset: 0.5, color: '#0000FF' },
-              { offset: 1, color: '#FFD700' },
+              { offset: 0, color:  '#FFD700'},
+              { offset: 0.5, color:  '#00FF00'},
+              { offset: 1, color: '#FFD700'},
             ]),
           },
         },

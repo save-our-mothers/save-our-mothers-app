@@ -39,7 +39,7 @@ function Age() {
     legend: {
       data: ageRanges,
       textStyle: {
-        color: '#333',
+        color: '#fff',
       },
     },
     toolbox: {
@@ -62,7 +62,7 @@ function Age() {
         boundaryGap: false,
         data: ageRanges,
         axisLabel: {
-          color: '#333',
+          color: '#fff',
         },
       },
     ],
@@ -70,7 +70,7 @@ function Age() {
       {
         type: 'value',
         axisLabel: {
-          color: '#333',
+          color: '#fff',
         },
       },
     ],
@@ -89,11 +89,11 @@ function Age() {
           color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
             {
               offset: 0,
-              color: 'rgb(128, 255, 165)',
+              color: '#00FF00',
             },
             {
               offset: 1,
-              color: 'rgb(1, 191, 236)',
+              color: '#FFD700',
             },
           ]),
         },
@@ -157,13 +157,13 @@ function Age() {
       <div>
         <ReactECharts
           option={option1}
-          style={{ height: '400px', width: '80%', margin: '0 auto' }}
+          style={{width: '80%', margin: '0 auto' }}
         />
       </div>
-      <div style={{ marginTop: '50px' }}>
+      <div style={{ marginTop: '20px' }}>
         <ReactECharts
           option={option2}
-          style={{ height: '400px', width: '80%', margin: '0 auto' }}
+          style={{width: '80%', margin: '0 auto' }}
         />
       </div>
     </div>
