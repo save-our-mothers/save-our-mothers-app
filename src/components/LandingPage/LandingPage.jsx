@@ -72,6 +72,7 @@ function LandingPage() {
                 <div className="view-border" onClick={(e) => expandWindow(e, '#-of-patients')} >
                   {/* Something isn't working here -gd */}
                   <PatientVisits />
+                  <h3>Something isn't working with this component -GD</h3>
                 </div>
               </Grid>
             </Grid>
