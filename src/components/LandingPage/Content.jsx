@@ -30,6 +30,8 @@ function Content() {
       <div className="popup">
         {
           chartType === 'age' ? (
+
+      
             <div className="content-div">
               <h3>Age</h3>
               <p>
@@ -88,6 +90,7 @@ function Content() {
               <p>I'm testing the size and height. It can probably be changed later,
                 but this seems pretty good from what I can tell.
               </p>
+              
               <Stack direction="row" spacing={1}>
                 <b>View Over Time:</b>
                 <Button color="success" variant="contained" size="small" >Weekly</Button>
