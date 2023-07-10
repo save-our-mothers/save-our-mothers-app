@@ -1,5 +1,5 @@
 //Jgender.jsx
-
+// ! graph 1
 import React, { useEffect, useRef } from 'react';
 import { useSelector } from 'react-redux';
 import * as echarts from 'echarts';
@@ -12,14 +12,14 @@ function Jgender() {
     const myChart = echarts.init(chartDom);
 
     const option = {
-      backgroundColor: '#2c343c',
+      backgroundColor: 'transparent',
       title: {
         text: 'Gender Distribution',
         left: 'center',
         top: 20,
         textStyle: {
           color: '#ccc',
-        },
+        }
       },
       tooltip: {
         trigger: 'axis',
@@ -40,17 +40,22 @@ function Jgender() {
       xAxis: {
         type: 'category',
         data: ['Male', 'Female', 'Other'],
+        axisLabel: {
+          color: 'white'
+        }
       },
-      yAxis: {},
+      yAxis: {
+        
+      },
       series: [
         {
           type: 'bar',
           data: [10, 15, 5],
           itemStyle: {
             color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-              { offset: 0, color: '#00FF00' },
-              { offset: 0.5, color: '#0000FF' },
-              { offset: 1, color: '#FFD700' },
+              { offset: 0, color:  '#FFD700'},
+              { offset: 0.5, color:  '#00FF00'},
+              { offset: 1, color: '#FFD700'},
             ]),
           },
         },
@@ -69,68 +74,10 @@ function Jgender() {
 }
 
 export default Jgender;
+// ! end 1
 
 
-
-//! gradient bar chart 
-// import React, { useEffect, useRef } from 'react';
-// import { useSelector } from 'react-redux';
-// import * as echarts from 'echarts';
-
-// function Jgender() {
-//   const chartRef = useRef(null);
-
-//   useEffect(() => {
-//     const chartDom = chartRef.current;
-//     const myChart = echarts.init(chartDom);
-
-//     const option = {
-//       backgroundColor: '#2c343c',
-//       title: {
-//         text: 'Gender Distribution',
-//         left: 'center',
-//         top: 20,
-//         textStyle: {
-//           color: '#ccc'
-//         }
-//       },
-//       tooltip: {},
-//       xAxis: {
-//         type: 'category',
-//         data: ['Male', 'Female', 'Other']
-//       },
-//       yAxis: {},
-//       series: [
-//         {
-//           type: 'bar',
-//           data: [10, 15, 5],
-//           itemStyle: {
-//             color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-//               { offset: 0, color: '#00FF00' },
-//               { offset: 0.5, color: '#0000FF' },
-//               { offset: 1, color: '#FFD700' }
-//             ])
-//           }
-//         }
-//       ]
-//     };
-
-//     myChart.setOption(option);
-
-//     // Cleanup
-//     return () => {
-//       myChart.dispose();
-//     };
-//   }, []);
-
-//   return <div ref={chartRef} style={{ height: '400px' }} />;
-// }
-
-// export default Jgender;
-
-
-
-
+// ! 3
 // import React, { useEffect, useRef } from 'react';
 // import { useSelector } from 'react-redux';
 // import * as echarts from 'echarts';
@@ -246,9 +193,9 @@ export default Jgender;
 // }
 
 // export default Jgender;
+// ! end 3
 
-
-//! cool bar chart but on top of pie empty
+//! cool bar chart but on top of pie empty 4
 // import React, { useEffect, useRef } from 'react';
 // import { useSelector } from 'react-redux';
 // import * as echarts from 'echarts';
@@ -364,12 +311,12 @@ export default Jgender;
 // }
 
 // export default Jgender;
+// ! end 4
 
 
 
 
-
-//! gradient bar chart blue gold green 
+//! gradient bar chart blue gold green 5
 // import React, { useEffect, useRef } from 'react';
 // import * as echarts from 'echarts';
 
@@ -424,9 +371,9 @@ export default Jgender;
 // }
 
 // export default Jgender;
+// ! end 5
 
-
-//! gradient pie chart 
+//! gradient pie chart 6
 // import React, { useEffect, useRef } from 'react';
 // import { useSelector } from 'react-redux';
 // import * as echarts from 'echarts';
@@ -519,11 +466,11 @@ export default Jgender;
 // }
 
 // export default Jgender;
+// ! end 6
 
 
 
-
-//! pie works 
+//! pie works 7
 // import React, { useEffect } from 'react';
 // import { useSelector, useDispatch } from 'react-redux';
 // import ReactECharts from 'echarts-for-react';
@@ -627,7 +574,7 @@ export default Jgender;
 // }
 
 // export default Jgender;
-
+// ! end 7
 
 
 
