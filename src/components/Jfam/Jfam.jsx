@@ -17,21 +17,21 @@ function Jfam() {
     [
       {
         offset: 0,
-        color: 'rgba(128, 255, 165, 1)', // Start color
-      },
-      {
-        offset: 1,
-        color: 'rgba(0, 221, 255, 1)', // End color
-      },
-    ],
-    [
-      {
-        offset: 0,
         color: 'rgba(255, 128, 128, 1)', // Start color
       },
       {
         offset: 1,
         color: 'rgba(255, 0, 0, 1)', // End color
+      },
+    ],
+    [
+      {
+        offset: 0,
+        color: 'green', // Start color
+      },
+      {
+        offset: 1,
+        color: '#95DE64', // End color
       },
     ],
     [
@@ -47,17 +47,17 @@ function Jfam() {
     [
       {
         offset: 0,
-        color: 'rgba(128, 128, 255, 1)', // Start color
+        color: 'purple', // Start color
       },
       {
         offset: 1,
-        color: 'rgba(0, 0, 255, 1)', // End color
+        color: 'magenta', // End color
       },
     ],
     // Add more gradients here...
   ];
 
-  const colorPalette = ['#FF4D4F', '#95DE64', '#FFC53D', '#36CFC9']; // Define the color palette for bar chart
+  const colorPalette = ['#FF4D4F', '#95DE64', '#FFC53D', 'purple']; // Define the color palette for bar chart
 
   const generatePieOption = () => {
     const option = {
@@ -201,16 +201,16 @@ function Jfam() {
 
   return (
     <>
-      <div style={{ width: '100%', height: '400px' }}>
+      <div>
         <ReactECharts
           option={generatePieOption()}
-          style={{ width: '100%', height: '100%' }}
+          style={{width: '80%', margin: '0 auto' }}
         />
       </div>
-      <div style={{ width: '100%', height: '400px' }}>
+      <div>
         <ReactECharts
           option={generateBarOption()}
-          style={{ width: '100%', height: '100%' }}
+          style={{width: '80%', margin: '0 auto', paddingBottom: '50px' }}
         />
       </div>
     </>

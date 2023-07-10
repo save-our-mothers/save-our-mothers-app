@@ -49,8 +49,8 @@ function TopMeds() {
   };
 
   return (
-    <div style={{ width: '500px', height: '500px' }}>
-      <h1>10 Most Prescribed Medications  </h1>
+    <div style={{ width: '500px', height: '450px', position: 'relative', left: '28%', top: '-3em'}}>
+      <h3>10 Most Prescribed Medications  </h3>
 
       <Pie data={data} options={options} />
     </div>

@@ -1,6 +1,8 @@
 .view-border {
   border: 2px solid #68326b;
   border-radius: 0px 10px 10px;
+  height: 225px;
+  overflow: hidden;
 }
 
 .view-border:hover {

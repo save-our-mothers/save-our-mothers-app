@@ -31,3 +31,8 @@
   top: 16px;
   right: 16px;
 }
+
+.content-div {
+  width: 100%;
+  padding-right: 36px;
+}
