@@ -1,12 +1,12 @@
 // Junique.jsx
+//npm install echarts@latest
 
-// Junique.jsx
-// Junique.jsx
+
 import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
 import axios from 'axios';
 
-function Junique() {
+function AnnualChart() {
   const chartRef = useRef(null);
   const [chartData, setChartData] = useState([]);
 
@@ -28,12 +28,70 @@ function Junique() {
     const chartDom = chartRef.current;
     const myChart = echarts.init(chartDom);
 
+    const sortedChartData = [...chartData].sort((a, b) => a.year - b.year);
+    const years = sortedChartData.map((row) => row.year);
+    const routineCheckupTotals = sortedChartData.map((row) => row.year_total);
+    const prenatalVisitTotals = sortedChartData.map((row) => row.year_total);
+    const emergencyVisitTotals = sortedChartData.map((row) => row.year_total);
+    const specialistAppointmentTotals = sortedChartData.map((row) => row.year_total);
+
+    const seriesData = [
+      {
+        name: 'Routine Check-up',
+        type: 'line',
+        stack: 'Total',
+        smooth: true,
+        lineStyle: {
+          width: 0,
+        },
+        showSymbol: false,
+        areaStyle: {},
+        data: routineCheckupTotals,
+      },
+      {
+        name: 'Prenatal Visit',
+        type: 'line',
+        stack: 'Total',
+        smooth: true,
+        lineStyle: {
+          width: 0,
+        },
+        showSymbol: false,
+        areaStyle: {},
+        data: prenatalVisitTotals,
+      },
+      {
+        name: 'Emergency Visit',
+        type: 'line',
+        stack: 'Total',
+        smooth: true,
+        lineStyle: {
+          width: 0,
+        },
+        showSymbol: false,
+        areaStyle: {},
+        data: emergencyVisitTotals,
+      },
+      {
+        name: 'Specialist Appointment',
+        type: 'line',
+        stack: 'Total',
+        smooth: true,
+        lineStyle: {
+          width: 0,
+        },
+        showSymbol: false,
+        areaStyle: {},
+        data: specialistAppointmentTotals,
+      },
+    ];
+
     const options = {
-      color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00'],
+      color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087'],
       title: {
-        text: 'Patient Visits',
+        text: 'Annual Total',
         textStyle: {
-          color: '#fff', // Set title text color to white
+          color: '#fff',
         },
       },
       tooltip: {
@@ -47,9 +105,8 @@ function Junique() {
       },
       legend: {
         top: 'bottom',
-        bottom: 0, // Adjust the bottom spacing of the legend
         textStyle: {
-          color: '#fff', // Set legend text color to white
+          color: '#fff',
         },
       },
       toolbox: {
@@ -68,7 +125,7 @@ function Junique() {
         },
         iconStyle: {
           normal: {
-            color: '#fff', // Set toolbox item color to white
+            color: '#fff',
           },
         },
       },
@@ -83,9 +140,9 @@ function Junique() {
         {
           type: 'category',
           boundaryGap: false,
-          data: ['Q1', 'Q2', 'Q3', 'Q4'], // Quarterly data
+          data: years,
           axisLabel: {
-            color: '#fff', // Set xAxis label color to white
+            color: '#fff',
           },
         },
       ],
@@ -93,60 +150,11 @@ function Junique() {
         {
           type: 'value',
           axisLabel: {
-            color: '#fff', // Set yAxis label color to white
+            color: '#fff',
           },
         },
       ],
-      series: [
-        {
-          name: 'Prenatal visit',
-          type: 'line',
-          stack: 'Total',
-          smooth: true,
-          lineStyle: {
-            width: 0,
-          },
-          showSymbol: false,
-          areaStyle: {},
-          data: [20, 17, 38, 30], // Quarterly data for Prenatal visit
-        },
-        {
-          name: 'Routine Check-up',
-          type: 'line',
-          stack: 'Total',
-          smooth: true,
-          lineStyle: {
-            width: 0,
-          },
-          showSymbol: false,
-          areaStyle: {},
-          data: [10, 8, 7, 9], // Quarterly data for Routine Check-up
-        },
-        {
-          name: 'Emergency Visit',
-          type: 'line',
-          stack: 'Total',
-          smooth: true,
-          lineStyle: {
-            width: 0,
-          },
-          showSymbol: false,
-          areaStyle: {},
-          data: [3, 7, 10, 0], // Quarterly data for Emergency Visit
-        },
-        {
-          name: 'Specialist Appointment',
-          type: 'line',
-          stack: 'Total',
-          smooth: true,
-          lineStyle: {
-            width: 0,
-          },
-          showSymbol: false,
-          areaStyle: {},
-          data: [15, 21, 32, 0], // Quarterly data for Specialist Appointment
-        },
-      ],
+      series: seriesData,
     };
 
     myChart.setOption(options);
@@ -154,17 +162,603 @@ function Junique() {
     return () => {
       myChart.dispose();
     };
-  }, []);
+  }, [chartData]);
 
   return (
-    <div className="chartContainer">
-      <div className="chart" ref={chartRef} style={{ height: '200px' }} />
+    <div className="chartContainer" style={{ width: '100vw' }}>
+      <div className="chart" ref={chartRef} style={{ height: '450px', width: '250%' }} />
       <div className="legend" />
     </div>
   );
 }
 
-export default Junique;
+export default AnnualChart;
+
+//     <div className="chart" ref={chartRef} style={{ height: '450px', width: '300vw' }} />
+
+
+
+//! weekly 
+// import React, { useEffect, useRef, useState } from 'react';
+// import * as echarts from 'echarts';
+// import axios from 'axios';
+
+// function Junique() {
+//   const chartRef = useRef(null);
+//   const [chartData, setChartData] = useState([]);
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         const response = await axios.get('/api/patient-visits');
+//         const data = response.data;
+//         setChartData(data);
+//       } catch (error) {
+//         console.error('Error fetching data:', error);
+//       }
+//     };
+
+//     fetchData();
+//   }, []);
+
+//   useEffect(() => {
+//     const chartDom = chartRef.current;
+//     const myChart = echarts.init(chartDom);
+
+//     const weekData = [];
+//     for (let i = 1; i <= 52; i++) {
+//       weekData.push(`week_${i}`);
+//     }
+
+//     const seriesData = [
+//       {
+//         name: 'Prenatal Visit',
+//         type: 'line',
+//         stack: 'Total',
+//         smooth: true,
+//         lineStyle: {
+//           width: 0,
+//         },
+//         showSymbol: false,
+//         areaStyle: {},
+//         data: weekData.map((week) => chartData[0]?.[week]),
+//       },
+//       {
+//         name: 'Routine Check-up',
+//         type: 'line',
+//         stack: 'Total',
+//         smooth: true,
+//         lineStyle: {
+//           width: 0,
+//         },
+//         showSymbol: false,
+//         areaStyle: {},
+//         data: weekData.map((week) => chartData[1]?.[week]),
+//       },
+//       {
+//         name: 'Emergency Visit',
+//         type: 'line',
+//         stack: 'Total',
+//         smooth: true,
+//         lineStyle: {
+//           width: 0,
+//         },
+//         showSymbol: false,
+//         areaStyle: {},
+//         data: weekData.map((week) => chartData[2]?.[week]),
+//       },
+//       {
+//         name: 'Specialist Appointment',
+//         type: 'line',
+//         stack: 'Total',
+//         smooth: true,
+//         lineStyle: {
+//           width: 0,
+//         },
+//         showSymbol: false,
+//         areaStyle: {},
+//         data: weekData.map((week) => chartData[3]?.[week]),
+//       },
+//     ];
+
+//     const options = {
+//       color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00'],
+//       title: {
+//         text: 'Weekly',
+//         textStyle: {
+//           color: '#fff',
+//         },
+//       },
+//       tooltip: {
+//         trigger: 'axis',
+//         axisPointer: {
+//           type: 'cross',
+//           label: {
+//             backgroundColor: '#6a7985',
+//           },
+//         },
+//       },
+//       legend: {
+//         top: 'bottom',
+//         bottom: 0,
+//         textStyle: {
+//           color: '#fff',
+//         },
+//       },
+//       toolbox: {
+//         show: true,
+//         orient: 'horizontal',
+//         top: 10,
+//         right: 10,
+//         feature: {
+//           dataZoom: {
+//             yAxisIndex: 'none',
+//           },
+//           dataView: { readOnly: false },
+//           magicType: { type: ['line', 'bar'] },
+//           restore: {},
+//           saveAsImage: {},
+//         },
+//         iconStyle: {
+//           normal: {
+//             color: '#fff',
+//           },
+//         },
+//       },
+//       grid: {
+//         left: '3%',
+//         right: '4%',
+//         bottom: '8%',
+//         top: '20%',
+//         containLabel: true,
+//       },
+//       xAxis: [
+//         {
+//           type: 'category',
+//           boundaryGap: false,
+//           data: weekData,
+//           axisLabel: {
+//             color: '#fff',
+//           },
+//         },
+//       ],
+//       yAxis: [
+//         {
+//           type: 'value',
+//           axisLabel: {
+//             color: '#fff',
+//           },
+//         },
+//       ],
+//       series: seriesData,
+//     };
+
+//     myChart.setOption(options);
+
+//     return () => {
+//       myChart.dispose();
+//     };
+//   }, [chartData]);
+
+//   return (
+//     <div className="chartContainer" style={{ width: '100vw' }}>
+//       <div className="chart" ref={chartRef} style={{ height: '450px', width: '300vw' }} />
+//       <div className="legend" />
+//     </div>
+//   );
+// }
+
+// export default Junique;
+
+
+
+
+
+//!Monthly
+// import React, { useEffect, useRef, useState } from 'react';
+// import * as echarts from 'echarts';
+// import axios from 'axios';
+
+// function Junique() {
+//   const chartRef = useRef(null);
+//   const [chartData, setChartData] = useState([]);
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         const response = await axios.get('/api/patient-visits');
+//         const data = response.data;
+//         setChartData(data);
+//       } catch (error) {
+//         console.error('Error fetching data:', error);
+//       }
+//     };
+
+//     fetchData();
+//   }, []);
+
+//   useEffect(() => {
+//     const chartDom = chartRef.current;
+//     const myChart = echarts.init(chartDom);
+
+//     const options = {
+//       color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00'],
+//       title: {
+//         text: 'Monthly',
+//         textStyle: {
+//           color: '#fff',
+//         },
+//       },
+//       tooltip: {
+//         trigger: 'axis',
+//         axisPointer: {
+//           type: 'cross',
+//           label: {
+//             backgroundColor: '#6a7985',
+//           },
+//         },
+//       },
+//       legend: {
+//         top: 'bottom',
+//         bottom: 0,
+//         textStyle: {
+//           color: '#fff',
+//         },
+//       },
+//       toolbox: {
+//         show: true,
+//         orient: 'horizontal',
+//         top: 10,
+//         right: 10,
+//         feature: {
+//           dataZoom: {
+//             yAxisIndex: 'none',
+//           },
+//           dataView: { readOnly: false },
+//           magicType: { type: ['line', 'bar'] },
+//           restore: {},
+//           saveAsImage: {},
+//         },
+//         iconStyle: {
+//           normal: {
+//             color: '#fff',
+//           },
+//         },
+//       },
+//       grid: {
+//         left: '3%',
+//         right: '4%',
+//         bottom: '8%',
+//         top: '20%',
+//         containLabel: true,
+//       },
+//       xAxis: [
+//         {
+//           type: 'category',
+//           boundaryGap: false,
+//           data: [
+//             'Jan',
+//             'Feb',
+//             'Mar',
+//             'Apr',
+//             'May',
+//             'Jun',
+//             'Jul',
+//             'Aug',
+//             'Sep',
+//             'Oct',
+//             'Nov',
+//             'Dec',
+//           ],
+//           axisLabel: {
+//             color: '#fff',
+//           },
+//         },
+//       ],
+//       yAxis: [
+//         {
+//           type: 'value',
+//           axisLabel: {
+//             color: '#fff',
+//           },
+//         },
+//       ],
+//       series: [
+//         {
+//           name: 'Prenatal visit',
+//           type: 'line',
+//           stack: 'Total',
+//           smooth: true,
+//           lineStyle: {
+//             width: 0,
+//           },
+//           showSymbol: false,
+//           areaStyle: {},
+//           data: [
+//             chartData[0]?.month_1,
+//             chartData[0]?.month_2,
+//             chartData[0]?.month_3,
+//             chartData[0]?.month_4,
+//             chartData[0]?.month_5,
+//             chartData[0]?.month_6,
+//             chartData[0]?.month_7,
+//             chartData[0]?.month_8,
+//             chartData[0]?.month_9,
+//             chartData[0]?.month_10,
+//             chartData[0]?.month_11,
+//             chartData[0]?.month_12,
+//           ],
+//         },
+//         {
+//           name: 'Routine Check-up',
+//           type: 'line',
+//           stack: 'Total',
+//           smooth: true,
+//           lineStyle: {
+//             width: 0,
+//           },
+//           showSymbol: false,
+//           areaStyle: {},
+//           data: [
+//             chartData[1]?.month_1,
+//             chartData[1]?.month_2,
+//             chartData[1]?.month_3,
+//             chartData[1]?.month_4,
+//             chartData[1]?.month_5,
+//             chartData[1]?.month_6,
+//             chartData[1]?.month_7,
+//             chartData[1]?.month_8,
+//             chartData[1]?.month_9,
+//             chartData[1]?.month_10,
+//             chartData[1]?.month_11,
+//             chartData[1]?.month_12,
+//           ],
+//         },
+//         {
+//           name: 'Emergency Visit',
+//           type: 'line',
+//           stack: 'Total',
+//           smooth: true,
+//           lineStyle: {
+//             width: 0,
+//           },
+//           showSymbol: false,
+//           areaStyle: {},
+//           data: [
+//             chartData[2]?.month_1,
+//             chartData[2]?.month_2,
+//             chartData[2]?.month_3,
+//             chartData[2]?.month_4,
+//             chartData[2]?.month_5,
+//             chartData[2]?.month_6,
+//             chartData[2]?.month_7,
+//             chartData[2]?.month_8,
+//             chartData[2]?.month_9,
+//             chartData[2]?.month_10,
+//             chartData[2]?.month_11,
+//             chartData[2]?.month_12,
+//           ],
+//         },
+//         {
+//           name: 'Specialist Appointment',
+//           type: 'line',
+//           stack: 'Total',
+//           smooth: true,
+//           lineStyle: {
+//             width: 0,
+//           },
+//           showSymbol: false,
+//           areaStyle: {},
+//           data: [
+//             chartData[3]?.month_1,
+//             chartData[3]?.month_2,
+//             chartData[3]?.month_3,
+//             chartData[3]?.month_4,
+//             chartData[3]?.month_5,
+//             chartData[3]?.month_6,
+//             chartData[3]?.month_7,
+//             chartData[3]?.month_8,
+//             chartData[3]?.month_9,
+//             chartData[3]?.month_10,
+//             chartData[3]?.month_11,
+//             chartData[3]?.month_12,
+//           ],
+//         },
+//       ],
+//     };
+
+//     myChart.setOption(options);
+
+//     return () => {
+//       myChart.dispose();
+//     };
+//   }, [chartData]);
+
+//   return (
+//     <div className="chartContainer" style={{ width: '100vw' }}>
+//     <div className="chart" ref={chartRef} style={{ height: '450px', width: '300vw' }} />
+//     <div className="legend" />
+//     </div>
+//   );
+// }
+
+// export default Junique;
+
+
+
+
+
+
+
+
+
+
+
+
+//! quarterly
+// import React, { useEffect, useRef, useState } from 'react';
+// import * as echarts from 'echarts';
+// import axios from 'axios';
+
+// function Junique() {
+//   const chartRef = useRef(null);
+//   const [chartData, setChartData] = useState([]);
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         const response = await axios.get('/api/patient-visits');
+//         const data = response.data;
+//         setChartData(data);
+//       } catch (error) {
+//         console.error('Error fetching data:', error);
+//       }
+//     };
+
+//     fetchData();
+//   }, []);
+
+//   useEffect(() => {
+//     const chartDom = chartRef.current;
+//     const myChart = echarts.init(chartDom);
+
+//     const options = {
+//       color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00'],
+//       title: {
+//         text: 'Patient Visits',
+//         textStyle: {
+//           color: '#fff', // Set title text color to white
+//         },
+//       },
+//       tooltip: {
+//         trigger: 'axis',
+//         axisPointer: {
+//           type: 'cross',
+//           label: {
+//             backgroundColor: '#6a7985',
+//           },
+//         },
+//       },
+//       legend: {
+//         top: 'bottom',
+//         bottom: 0, // Adjust the bottom spacing of the legend
+//         textStyle: {
+//           color: '#fff', // Set legend text color to white
+//         },
+//       },
+//       toolbox: {
+//         show: true,
+//         orient: 'horizontal',
+//         top: 10,
+//         right: 10,
+//         feature: {
+//           dataZoom: {
+//             yAxisIndex: 'none',
+//           },
+//           dataView: { readOnly: false },
+//           magicType: { type: ['line', 'bar'] },
+//           restore: {},
+//           saveAsImage: {},
+//         },
+//         iconStyle: {
+//           normal: {
+//             color: '#fff', // Set toolbox item color to white
+//           },
+//         },
+//       },
+//       grid: {
+//         left: '3%',
+//         right: '4%',
+//         bottom: '8%',
+//         top: '20%',
+//         containLabel: true,
+//       },
+//       xAxis: [
+//         {
+//           type: 'category',
+//           boundaryGap: false,
+//           data: ['Q1', 'Q2', 'Q3', 'Q4'], // Quarterly data
+//           axisLabel: {
+//             color: '#fff', // Set xAxis label color to white
+//           },
+//         },
+//       ],
+//       yAxis: [
+//         {
+//           type: 'value',
+//           axisLabel: {
+//             color: '#fff', // Set yAxis label color to white
+//           },
+//         },
+//       ],
+//       series: [
+//         {
+//           name: 'Prenatal visit',
+//           type: 'line',
+//           stack: 'Total',
+//           smooth: true,
+//           lineStyle: {
+//             width: 0,
+//           },
+//           showSymbol: false,
+//           areaStyle: {},
+//           data: [20, 17, 38, 30], // Quarterly data for Prenatal visit
+//         },
+//         {
+//           name: 'Routine Check-up',
+//           type: 'line',
+//           stack: 'Total',
+//           smooth: true,
+//           lineStyle: {
+//             width: 0,
+//           },
+//           showSymbol: false,
+//           areaStyle: {},
+//           data: [10, 8, 7, 9], // Quarterly data for Routine Check-up
+//         },
+//         {
+//           name: 'Emergency Visit',
+//           type: 'line',
+//           stack: 'Total',
+//           smooth: true,
+//           lineStyle: {
+//             width: 0,
+//           },
+//           showSymbol: false,
+//           areaStyle: {},
+//           data: [3, 7, 10, 0], // Quarterly data for Emergency Visit
+//         },
+//         {
+//           name: 'Specialist Appointment',
+//           type: 'line',
+//           stack: 'Total',
+//           smooth: true,
+//           lineStyle: {
+//             width: 0,
+//           },
+//           showSymbol: false,
+//           areaStyle: {},
+//           data: [15, 21, 32, 0], // Quarterly data for Specialist Appointment
+//         },
+//       ],
+//     };
+
+//     myChart.setOption(options);
+
+//     return () => {
+//       myChart.dispose();
+//     };
+//   }, []);
+
+//   return (
+//     <div className="chartContainer">
+//       <div className="chart" ref={chartRef} style={{ height: '200px' }} />
+//       <div className="legend" />
+//     </div>
+//   );
+// }
+
+// export default Junique;
 
 
 
