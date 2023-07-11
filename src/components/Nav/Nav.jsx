@@ -15,6 +15,11 @@ function Nav() {
       <Link className="navLink" to="/">
         Dashboard
       </Link>
+
+      <Link className="navLink" to="/Jvisits">
+        Visits
+      </Link>
+
       {/* If a user is logged in, show these links */}
       {user.id && (
         <>
@@ -26,6 +31,12 @@ function Nav() {
           <Link className="navLink" to="/info">
             Info Page
           </Link>
+
+
+
+
+
+
         </>
       )}
       <Link className="navLink" to="/about">
