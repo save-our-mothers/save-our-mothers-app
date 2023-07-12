@@ -1,4 +1,142 @@
 //Jgender.jsx
+
+// import React, { useEffect, useRef, useState } from 'react';
+// import { useSelector } from 'react-redux';
+// import * as echarts from 'echarts';
+// import axios from 'axios';
+
+// function Jgender() {
+//   const chartRef1 = useRef(null);
+//   const chartRef2 = useRef(null);
+//   const [chartData, setChartData] = useState([]);
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         const response = await axios.get('/api/gender');
+//         const data = response.data;
+//         setChartData(data);
+//       } catch (error) {
+//         console.error('Error fetching data:', error);
+//       }
+//     };
+
+//     fetchData();
+//   }, []);
+
+//   useEffect(() => {
+//     const chartDom1 = chartRef1.current;
+//     const chartDom2 = chartRef2.current;
+
+//     const myChart1 = echarts.init(chartDom1);
+//     const myChart2 = echarts.init(chartDom2);
+
+//     const option1 = {
+//       color: ['#FF6457', '#5AD8A6', '#FFBB47'],
+//       legend: {
+//         textStyle: {
+//           color: '#fff',
+//         },
+//       },
+//       tooltip: {
+//         trigger: 'item',
+//       },
+//       toolbox: {
+//         show: true,
+//         feature: {
+//           dataView: { readOnly: false },
+//           restore: {},
+//           saveAsImage: {},
+//         },
+//       },
+//       series: [
+//         {
+//           type: 'pie',
+//           name: 'pie',
+//           radius: '80%',
+//           center: ['50%', '50%'],
+//           label: {
+//             formatter: '{b}: {d}%',
+//           },
+//           data: chartData.map((item) => ({
+//             name: item.gender,
+//             value: item.count,
+//           })),
+//         },
+//       ],
+//     };
+
+//     const option2 = {
+//       backgroundColor: 'transparent',
+//       title: {
+//         text: 'Gender Distribution',
+//         left: 'center',
+//         top: 20,
+//         textStyle: {
+//           color: '#ccc',
+//         },
+//       },
+//       tooltip: {
+//         trigger: 'axis',
+//       },
+//       legend: {},
+//       toolbox: {
+//         show: true,
+//         feature: {
+//           dataZoom: {
+//             yAxisIndex: 'none',
+//           },
+//           dataView: { readOnly: false },
+//           magicType: { type: ['line', 'bar'] },
+//           restore: {},
+//           saveAsImage: {},
+//         },
+//       },
+//       xAxis: {
+//         type: 'category',
+//         data: ['Male', 'Female', 'Other'],
+//         axisLabel: {
+//           color: 'white',
+//         },
+//       },
+//       yAxis: {},
+//       series: [
+//         {
+//           type: 'bar',
+//           data: [10, 15, 5],
+//           itemStyle: {
+//             color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+//               { offset: 0, color: '#FFD700' },
+//               { offset: 0.5, color: '#00FF00' },
+//               { offset: 1, color: '#FFD700' },
+//             ]),
+//           },
+//         },
+//       ],
+//     };
+
+//     myChart1.setOption(option1);
+//     myChart2.setOption(option2);
+
+//     return () => {
+//       myChart1.dispose();
+//       myChart2.dispose();
+//     };
+//   }, [chartData]);
+
+//   return (
+//     <div>
+//       <div className="chartContainer" ref={chartRef1} style={{ height: '200px' }} />
+//       <div className="chartContainer" ref={chartRef2} style={{ height: '400px' }} />
+//     </div>
+//   );
+// }
+
+// export default Jgender;
+
+
+
+
 // ! graph 1
 import React, { useEffect, useRef } from 'react';
 import { useSelector } from 'react-redux';

@@ -48,7 +48,7 @@ function Content() {
           ) : chartType === 'gender' ? (
             <div className="content-div">
               <h3>Gender</h3>
-              <Junique />
+          <Junique />
               <Jgender />
             </div>
           ) : chartType === 'family-size' ? (
@@ -68,7 +68,7 @@ function Content() {
           ) : chartType === '#-of-patients' ? (
             <div className="content-div">
               <h3>Number of Patients</h3>
-              
+             <Jvisits/>
               <Stack direction="row" spacing={1}>
                 <b>View Over Time:</b>
                 <Button color="success" variant="contained" size="small" >Weekly</Button>
