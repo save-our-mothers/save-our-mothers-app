@@ -174,3 +174,177 @@ INSERT INTO "ages" ("range", "count") VALUES ('21-30', 20);
 INSERT INTO "ages" ("range", "count") VALUES ('31-40', 15);
 INSERT INTO "ages" ("range", "count") VALUES ('41-50', 10);
 INSERT INTO "ages" ("range", "count") VALUES ('51+', 5);
+
+
+
+ALTER TABLE "patient_visits"
+ADD COLUMN year INT NOT NULL,
+ADD COLUMN year_total INT NOT NULL,
+ADD COLUMN week_1 INT,
+ADD COLUMN week_2 INT,
+ADD COLUMN week_3 INT,
+ADD COLUMN week_4 INT,
+ADD COLUMN week_5 INT,
+ADD COLUMN week_6 INT,
+ADD COLUMN week_7 INT,
+ADD COLUMN week_8 INT,
+ADD COLUMN week_9 INT,
+ADD COLUMN week_10 INT,
+ADD COLUMN week_12 INT,
+ADD COLUMN week_13 INT,
+ADD COLUMN week_14 INT,
+ADD COLUMN week_15 INT,
+ADD COLUMN week_16 INT,
+ADD COLUMN week_17 INT,
+ADD COLUMN week_18 INT,
+ADD COLUMN week_19 INT,
+ADD COLUMN week_20 INT,
+ADD COLUMN week_21 INT,
+ADD COLUMN week_22 INT,
+ADD COLUMN week_23 INT,
+ADD COLUMN week_24 INT,
+ADD COLUMN week_25 INT,
+ADD COLUMN week_26 INT,
+ADD COLUMN week_27 INT,
+ADD COLUMN week_28 INT,
+ADD COLUMN week_29 INT,
+ADD COLUMN week_30 INT,
+ADD COLUMN week_31 INT,
+ADD COLUMN week_32 INT,
+ADD COLUMN week_33 INT,
+ADD COLUMN week_34 INT,
+ADD COLUMN week_35 INT,
+ADD COLUMN week_36 INT,
+ADD COLUMN week_37 INT,
+ADD COLUMN week_38 INT,
+ADD COLUMN week_39 INT,
+ADD COLUMN week_40 INT,
+ADD COLUMN week_41 INT,
+ADD COLUMN week_42 INT,
+ADD COLUMN week_43 INT,
+ADD COLUMN week_44 INT,
+ADD COLUMN week_45 INT,
+ADD COLUMN week_46 INT,
+ADD COLUMN week_47 INT,
+ADD COLUMN week_48 INT,
+ADD COLUMN week_49 INT,
+ADD COLUMN week_50 INT,
+ADD COLUMN week_51 INT,
+ADD COLUMN week_52 INT,
+ADD COLUMN month_1 INT,
+ADD COLUMN month_2 INT,
+ADD COLUMN month_3 INT,
+ADD COLUMN month_4 INT,
+ADD COLUMN month_5 INT,
+ADD COLUMN month_6 INT,
+ADD COLUMN month_7 INT,
+ADD COLUMN month_8 INT,
+ADD COLUMN month_9 INT,
+ADD COLUMN month_10 INT,
+ADD COLUMN month_11 INT,
+ADD COLUMN month_12 INT,
+ADD COLUMN Q_1 INT,
+ADD COLUMN Q_2 INT,
+ADD COLUMN Q_3 INT,
+ADD COLUMN Q_4 INT;
+ALTER TABLE patient_visits ALTER COLUMN year DROP NOT NULL;
+ALTER TABLE patient_visits ADD COLUMN year INTEGER;
+
+ALTER TABLE "patient_visits" ADD COLUMN week_11 INT;
+
+INSERT INTO "patient_visits" (
+    "count", "type",
+    week_1, week_2, week_3, week_4, week_5, week_6, week_7, week_8, week_9, week_10,
+    week_12, week_13, week_14, week_15, week_16, week_17, week_18, week_19, week_20,
+    week_21, week_22, week_23, week_24, week_25, week_26, week_27, week_28, week_29,
+    week_30, week_31, week_32, week_33, week_34, week_35, week_36, week_37, week_38,
+    week_39, week_40, week_41, week_42, week_43, week_44, week_45, week_46, week_47,
+    week_48, week_49, week_50, week_51, week_52, month_1, month_2, month_3, month_4,
+    month_5, month_6, month_7, month_8, month_9, month_10, month_11, month_12, Q_1,
+    Q_2, Q_3, Q_4
+)
+VALUES (
+    15, 'Routine Check-up',
+    10, 8, 7, 9, 11, 13, 15, 12, 10, 8, 7, 9, 11, 13, 15, 12, 10, 8, 7,
+    9, 11, 13, 15, 12, 10, 8, 7, 9, 11, 13, 15, 12, 10, 8, 7, 9, 11,
+    13, 15, 12, 10, 8, 7, 9, 11, 13, 15, 12, 10, 8, 7, 9, 11, 13,
+    15, 12, 10, 8, 7, 9, 11, 13, 15, 12, 10, 8, 7, 9, 11, 13, 15,
+    1, 2, 3, 4
+);
+
+
+INSERT INTO patient_visits ("count", "type", year, week_1, week_2, week_3, week_4, week_5, week_6, week_7, week_8, week_9, week_10,
+                            week_11, week_12, week_13, week_14, week_15, week_16, week_17, week_18, week_19, week_20,
+                            week_21, week_22, week_23, week_24, week_25, week_26, week_27, week_28, week_29, week_30,
+                            week_31, week_32, week_33, week_34, week_35, week_36, week_37, week_38, week_39, week_40,
+                            week_41, week_42, week_43, week_44, week_45, week_46, week_47, week_48, week_49, week_50,
+                            week_51, week_52, month_1, month_2, month_3, month_4, month_5, month_6, month_7, month_8,
+                            month_9, month_10, month_11, month_12, Q_1, Q_2, Q_3, Q_4)
+VALUES (5, 'Specialist Appointment', 2022,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+
+
+
+INSERT INTO patient_visits ("count", "type", year,
+                            week_1, week_2, week_3, week_4, week_5, week_6, week_7, week_8, week_9, week_10,
+                            week_11, week_12, week_13, week_14, week_15, week_16, week_17, week_18, week_19, week_20,
+                            week_21, week_22, week_23, week_24, week_25, week_26, week_27, week_28, week_29, week_30,
+                            week_31, week_32, week_33, week_34, week_35, week_36, week_37, week_38, week_39, week_40,
+                            week_41, week_42, week_43, week_44, week_45, week_46, week_47, week_48, week_49, week_50,
+                            week_51, week_52)
+VALUES (5, 'Specialist Appointment', 2022,
+        -- Weekly data
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+        21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+        41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52);
+        
+INSERT INTO patient_visits ("count", "type", year,
+                            week_1, week_2, week_3, week_4, week_5, week_6, week_7, week_8, week_9, week_10,
+                            week_11, week_12, week_13, week_14, week_15, week_16, week_17, week_18, week_19, week_20,
+                            week_21, week_22, week_23, week_24, week_25, week_26, week_27, week_28, week_29, week_30,
+                            week_31, week_32, week_33, week_34, week_35, week_36, week_37, week_38, week_39, week_40,
+                            week_41, week_42, week_43, week_44, week_45, week_46, week_47, week_48, week_49, week_50,
+                            week_51, week_52)
+VALUES (15, 'Prenatal visit', 2023,
+        -- Weekly data
+        30, 49, 34, 69, 70, 34, 22, 67, 45, 65, 45, 22, 30, 50, 43, 30, 50, 32, 56, 67,
+        54, 32, 44, 21, 38, 49, 26, 58, 42, 50, 33, 62, 29, 37, 46, 24, 35, 42, 21, 39, 55,
+        44, 31, 36, 28, 47, 53, 30, 48, 35, 27, 40);
+        
+ INSERT INTO patient_visits ("count", "type", year,
+                            week_1, week_2, week_3, week_4, week_5, week_6, week_7, week_8, week_9, week_10,
+                            week_11, week_12, week_13, week_14, week_15, week_16, week_17, week_18, week_19, week_20,
+                            week_21, week_22, week_23, week_24, week_25, week_26, week_27, week_28, week_29, week_30,
+                            week_31, week_32, week_33, week_34, week_35, week_36, week_37, week_38, week_39, week_40,
+                            week_41, week_42, week_43, week_44, week_45, week_46, week_47, week_48, week_49, week_50,
+                            week_51, week_52)
+VALUES (15, 'Emergency visit', 2020,
+        -- Weekly data
+        40, 69, 24, 69, 70, 34, 22, 67, 45, 65, 45, 22, 30, 50, 43, 70, 40, 42, 26, 67,
+        54, 32, 24, 21, 38, 49, 26, 58, 42, 50, 33, 52, 39, 37, 36, 24, 85, 72, 41, 29, 85,
+        14, 31, 36, 28, 47, 53, 30, 48, 35, 27, 40);       
+
+
+
+
+
+
+-- Add the year_total column for each year from 2020 to 2031
+ALTER TABLE patient_visits
+ADD COLUMN year_total INT;
+
+-- Update the year_total value for multiple years
+UPDATE patient_visits
+SET year_total = (week_1 + week_2 + week_3 + week_4 + week_5 + week_6 + week_7 + week_8 + week_9 + week_10 +
+                  week_11 + week_12 + week_13 + week_14 + week_15 + week_16 + week_17 + week_18 + week_19 + week_20 +
+                  week_21 + week_22 + week_23 + week_24 + week_25 + week_26 + week_27 + week_28 + week_29 + week_30 +
+                  week_31 + week_32 + week_33 + week_34 + week_35 + week_36 + week_37 + week_38 + week_39 + week_40 +
+                  week_41 + week_42 + week_43 + week_44 + week_45 + week_46 + week_47 + week_48 + week_49 + week_50 +
+                  week_51 + week_52)
+WHERE year IN (2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031);
+
+SELECT year, SUM(count) AS total_visits
+FROM patient_visits
+GROUP BY year
+ORDER BY year;

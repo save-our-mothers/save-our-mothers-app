@@ -1,7 +1,6 @@
 // Junique.jsx
 //npm install echarts@latest
 
-
 import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
 import axios from 'axios';
@@ -174,7 +173,7 @@ function AnnualChart() {
 
 export default AnnualChart;
 
-//     <div className="chart" ref={chartRef} style={{ height: '450px', width: '300vw' }} />
+    // <div className="chart" ref={chartRef} style={{ height: '450px', width: '300vw' }} />
 
 
 
