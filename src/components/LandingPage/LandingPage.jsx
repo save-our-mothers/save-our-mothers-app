@@ -26,7 +26,7 @@ function LandingPage() {
   const expandWindow = (e, chartType) => {
     dispatch({ type: 'SET_CHART_TYPE', payload: chartType })
     dispatch({ type: 'TOGGLE_WINDOW_STATUS' })
-    
+
   }
 
   return (
@@ -37,6 +37,14 @@ function LandingPage() {
         {
           windowStatus === false ? (
             <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+              <Grid item xs={2} sm={4} md={4}>
+                <p>Number of Patients Chart</p>
+                <div className="view-border" onClick={(e) => expandWindow(e, '#-of-patients')} >
+                  {/* Something isn't working here -gd */}
+                  <PatientVisits />
+                  <h3>Something isn't working with this component -GD</h3>
+                </div>
+              </Grid>
               <Grid item xs={2} sm={4} md={4}>
                 <p>Age Graph</p>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'age')} >
@@ -65,14 +73,6 @@ function LandingPage() {
                 <p>Geo Location Map</p>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'map')} >
                   <GeoMap />
-                </div>
-              </Grid>
-              <Grid item xs={2} sm={4} md={4}>
-                <p>Number of Patients Chart</p>
-                <div className="view-border" onClick={(e) => expandWindow(e, '#-of-patients')} >
-                  {/* Something isn't working here -gd */}
-                  <PatientVisits />
-                  <h3>Something isn't working with this component -GD</h3>
                 </div>
               </Grid>
             </Grid>
