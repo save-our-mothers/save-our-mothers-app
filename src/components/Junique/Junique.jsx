@@ -1,8 +1,6 @@
 // Junique.jsx
 //npm install echarts@latest
 
-
-
 // ! yes working pie chart 
 import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
