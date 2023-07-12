@@ -140,11 +140,11 @@ CREATE TABLE patient_visits (
   month_9 INT,
   month_10 INT,
   month_11 INT,
-  month_12 INT
+  month_12 INT,
   Q_1 INT,
   Q_2 INT,
   Q_3 INT,
-  Q_4 INT,
+  Q_4 INT
 );
 
 
