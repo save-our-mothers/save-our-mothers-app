@@ -2,18 +2,20 @@
 //npm install echarts@latest
 
 
+
+// ! yes working pie chart 
 import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
 import axios from 'axios';
 
-function AnnualChart() {
-  const chartRef = useRef(null);
+function Junique() {
+  const chartRef3 = useRef(null);
   const [chartData, setChartData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('/api/patient-visits');
+        const response = await axios.get('/api/gender'); 
         const data = response.data;
         setChartData(data);
       } catch (error) {
@@ -25,154 +27,236 @@ function AnnualChart() {
   }, []);
 
   useEffect(() => {
-    const chartDom = chartRef.current;
-    const myChart = echarts.init(chartDom);
 
-    const sortedChartData = [...chartData].sort((a, b) => a.year - b.year);
-    const years = sortedChartData.map((row) => row.year);
-    const routineCheckupTotals = sortedChartData.map((row) => row.year_total);
-    const prenatalVisitTotals = sortedChartData.map((row) => row.year_total);
-    const emergencyVisitTotals = sortedChartData.map((row) => row.year_total);
-    const specialistAppointmentTotals = sortedChartData.map((row) => row.year_total);
+    const chartDom3 = chartRef3.current;
 
-    const seriesData = [
-      {
-        name: 'Routine Check-up',
-        type: 'line',
-        stack: 'Total',
-        smooth: true,
-        lineStyle: {
-          width: 0,
-        },
-        showSymbol: false,
-        areaStyle: {},
-        data: routineCheckupTotals,
-      },
-      {
-        name: 'Prenatal Visit',
-        type: 'line',
-        stack: 'Total',
-        smooth: true,
-        lineStyle: {
-          width: 0,
-        },
-        showSymbol: false,
-        areaStyle: {},
-        data: prenatalVisitTotals,
-      },
-      {
-        name: 'Emergency Visit',
-        type: 'line',
-        stack: 'Total',
-        smooth: true,
-        lineStyle: {
-          width: 0,
-        },
-        showSymbol: false,
-        areaStyle: {},
-        data: emergencyVisitTotals,
-      },
-      {
-        name: 'Specialist Appointment',
-        type: 'line',
-        stack: 'Total',
-        smooth: true,
-        lineStyle: {
-          width: 0,
-        },
-        showSymbol: false,
-        areaStyle: {},
-        data: specialistAppointmentTotals,
-      },
-    ];
+    const myChart3 = echarts.init(chartDom3);
 
-    const options = {
-      color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087'],
-      title: {
-        text: 'Annual Total',
+    const option3 = {
+      color: ['#FF6457', '#5AD8A6', '#FFBB47'],
+      legend: {
         textStyle: {
           color: '#fff',
         },
       },
       tooltip: {
-        trigger: 'axis',
-        axisPointer: {
-          type: 'cross',
-          label: {
-            backgroundColor: '#6a7985',
-          },
-        },
-      },
-      legend: {
-        top: 'bottom',
-        textStyle: {
-          color: '#fff',
-        },
+        trigger: 'item',
       },
       toolbox: {
         show: true,
-        orient: 'horizontal',
-        top: 10,
-        right: 10,
         feature: {
-          dataZoom: {
-            yAxisIndex: 'none',
-          },
           dataView: { readOnly: false },
-          magicType: { type: ['line', 'bar'] },
           restore: {},
           saveAsImage: {},
         },
-        iconStyle: {
-          normal: {
-            color: '#fff',
-          },
-        },
       },
-      grid: {
-        left: '3%',
-        right: '4%',
-        bottom: '8%',
-        top: '20%',
-        containLabel: true,
-      },
-      xAxis: [
+      series: [
         {
-          type: 'category',
-          boundaryGap: false,
-          data: years,
-          axisLabel: {
-            color: '#fff',
+          type: 'pie',
+          name: 'pie',
+          radius: '80%',
+          center: ['50%', '50%'],
+          label: {
+            formatter: '{b}: {d}%',
           },
+          data: chartData.map((item) => ({
+            name: item.gender,
+            value: item.count,
+          })),
         },
       ],
-      yAxis: [
-        {
-          type: 'value',
-          axisLabel: {
-            color: '#fff',
-          },
-        },
-      ],
-      series: seriesData,
     };
 
-    myChart.setOption(options);
+
+    myChart3.setOption(option3);
+
 
     return () => {
-      myChart.dispose();
+
+      myChart3.dispose();
     };
   }, [chartData]);
 
   return (
-    <div className="chartContainer" style={{ width: '100vw' }}>
-      <div className="chart" ref={chartRef} style={{ height: '450px', width: '250%' }} />
-      <div className="legend" />
+    <div >
+      <div className="chartContainer" ref={chartRef3} style={{ height: '200px'}} />
     </div>
   );
 }
 
-export default AnnualChart;
+export default Junique;
+
+// import React, { useEffect, useRef, useState } from 'react';
+// import * as echarts from 'echarts';
+// import axios from 'axios';
+
+// function AnnualChart() {
+//   const chartRef = useRef(null);
+//   const [chartData, setChartData] = useState([]);
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         const response = await axios.get('/api/patient-visits');
+//         const data = response.data;
+//         setChartData(data);
+//       } catch (error) {
+//         console.error('Error fetching data:', error);
+//       }
+//     };
+
+//     fetchData();
+//   }, []);
+
+//   useEffect(() => {
+//     const chartDom = chartRef.current;
+//     const myChart = echarts.init(chartDom);
+
+//     const sortedChartData = [...chartData].sort((a, b) => a.year - b.year);
+//     const years = sortedChartData.map((row) => row.year);
+//     const routineCheckupTotals = sortedChartData.map((row) => row.year_total);
+//     const prenatalVisitTotals = sortedChartData.map((row) => row.year_total);
+//     const emergencyVisitTotals = sortedChartData.map((row) => row.year_total);
+//     const specialistAppointmentTotals = sortedChartData.map((row) => row.year_total);
+
+//     const seriesData = [
+//       {
+//         name: 'Routine Check-up',
+//         type: 'line',
+//         stack: 'Total',
+//         smooth: true,
+//         lineStyle: {
+//           width: 0,
+//         },
+//         showSymbol: false,
+//         areaStyle: {},
+//         data: routineCheckupTotals,
+//       },
+//       {
+//         name: 'Prenatal Visit',
+//         type: 'line',
+//         stack: 'Total',
+//         smooth: true,
+//         lineStyle: {
+//           width: 0,
+//         },
+//         showSymbol: false,
+//         areaStyle: {},
+//         data: prenatalVisitTotals,
+//       },
+//       {
+//         name: 'Emergency Visit',
+//         type: 'line',
+//         stack: 'Total',
+//         smooth: true,
+//         lineStyle: {
+//           width: 0,
+//         },
+//         showSymbol: false,
+//         areaStyle: {},
+//         data: emergencyVisitTotals,
+//       },
+//       {
+//         name: 'Specialist Appointment',
+//         type: 'line',
+//         stack: 'Total',
+//         smooth: true,
+//         lineStyle: {
+//           width: 0,
+//         },
+//         showSymbol: false,
+//         areaStyle: {},
+//         data: specialistAppointmentTotals,
+//       },
+//     ];
+
+//     const options = {
+//       color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087'],
+//       title: {
+//         text: 'Annual Total',
+//         textStyle: {
+//           color: '#fff',
+//         },
+//       },
+//       tooltip: {
+//         trigger: 'axis',
+//         axisPointer: {
+//           type: 'cross',
+//           label: {
+//             backgroundColor: '#6a7985',
+//           },
+//         },
+//       },
+//       legend: {
+//         top: 'bottom',
+//         textStyle: {
+//           color: '#fff',
+//         },
+//       },
+//       toolbox: {
+//         show: true,
+//         orient: 'horizontal',
+//         top: 10,
+//         right: 10,
+//         feature: {
+//           dataZoom: {
+//             yAxisIndex: 'none',
+//           },
+//           dataView: { readOnly: false },
+//           magicType: { type: ['line', 'bar'] },
+//           restore: {},
+//           saveAsImage: {},
+//         },
+//         iconStyle: {
+//           normal: {
+//             color: '#fff',
+//           },
+//         },
+//       },
+//       grid: {
+//         left: '3%',
+//         right: '4%',
+//         bottom: '8%',
+//         top: '20%',
+//         containLabel: true,
+//       },
+//       xAxis: [
+//         {
+//           type: 'category',
+//           boundaryGap: false,
+//           data: years,
+//           axisLabel: {
+//             color: '#fff',
+//           },
+//         },
+//       ],
+//       yAxis: [
+//         {
+//           type: 'value',
+//           axisLabel: {
+//             color: '#fff',
+//           },
+//         },
+//       ],
+//       series: seriesData,
+//     };
+
+//     myChart.setOption(options);
+
+//     return () => {
+//       myChart.dispose();
+//     };
+//   }, [chartData]);
+
+//   return (
+//     <div className="chartContainer" style={{ width: '100vw' }}>
+//       <div className="chart" ref={chartRef} style={{ height: '450px', width: '250%' }} />
+//       <div className="legend" />
+//     </div>
+//   );
+// }
+
+// export default AnnualChart;
 
 //     <div className="chart" ref={chartRef} style={{ height: '450px', width: '300vw' }} />
 
@@ -754,105 +838,6 @@ export default AnnualChart;
 //     <div className="chartContainer">
 //       <div className="chart" ref={chartRef} style={{ height: '200px' }} />
 //       <div className="legend" />
-//     </div>
-//   );
-// }
-
-// export default Junique;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//! yes working pie chart 
-// import React, { useEffect, useRef, useState } from 'react';
-// import * as echarts from 'echarts';
-// import axios from 'axios';
-
-// function Junique() {
-//   const chartRef1 = useRef(null);
-//   const chartRef2 = useRef(null);
-//   const chartRef3 = useRef(null);
-//   const [chartData, setChartData] = useState([]);
-
-//   useEffect(() => {
-//     const fetchData = async () => {
-//       try {
-//         const response = await axios.get('/api/gender'); 
-//         const data = response.data;
-//         setChartData(data);
-//       } catch (error) {
-//         console.error('Error fetching data:', error);
-//       }
-//     };
-
-//     fetchData();
-//   }, []);
-
-//   useEffect(() => {
-
-//     const chartDom3 = chartRef3.current;
-
-//     const myChart3 = echarts.init(chartDom3);
-
-//     const option3 = {
-//       color: ['#FF6457', '#5AD8A6', '#FFBB47'],
-//       legend: {
-//         textStyle: {
-//           color: '#fff',
-//         },
-//       },
-//       tooltip: {
-//         trigger: 'item',
-//       },
-//       toolbox: {
-//         show: true,
-//         feature: {
-//           dataView: { readOnly: false },
-//           restore: {},
-//           saveAsImage: {},
-//         },
-//       },
-//       series: [
-//         {
-//           type: 'pie',
-//           name: 'pie',
-//           radius: '80%',
-//           center: ['50%', '50%'],
-//           label: {
-//             formatter: '{b}: {d}%',
-//           },
-//           data: chartData.map((item) => ({
-//             name: item.gender,
-//             value: item.count,
-//           })),
-//         },
-//       ],
-//     };
-
-
-//     myChart3.setOption(option3);
-
-
-//     return () => {
-
-//       myChart3.dispose();
-//     };
-//   }, [chartData]);
-
-//   return (
-//     <div >
-//       <div ></div>
-//       <div className="chartContainer" ref={chartRef3} style={{ height: '200px'}} />
 //     </div>
 //   );
 // }
