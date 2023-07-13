@@ -1,6 +1,7 @@
 // Junique.jsx
 //npm install echarts@latest
 
+
 import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
 import axios from 'axios';
