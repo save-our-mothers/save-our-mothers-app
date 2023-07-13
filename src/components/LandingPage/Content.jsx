@@ -13,6 +13,9 @@ import Jvisits from '../Jvisits/Jvisits';
 import Jmap from '../Jmap/Jmap';
 import Junique from '../Junique/Junique';
 import TopMeds from '../TopMeds/TopMeds';
+import Drugs from '../TopMeds/Drugs';
+
+
 
 function Content() {
   const chartType = useSelector(store => store.landingPageReducers.chartType);
@@ -58,6 +61,7 @@ function Content() {
             </div>
           ) : chartType === 'prescriptions' ? (
             <div className="content-div">
+              {/* <Drugs /> */}
               <TopMeds />
             </div>
           ) : chartType === 'map' ? (

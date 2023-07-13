@@ -118,6 +118,28 @@ export function* watchFetchLocations() {
   yield takeLatest('FETCH_LOCATIONS', fetchLocationsSaga);
 }
 
+// Worker saga fetching PRESCRIPTIONS data
+function* fetchPrescriptionsSaga() {
+  try {
+    console.log('FETCH_PRESCRIPTIONS saga started');
+    const response = yield axios.get('/api/prescriptions');
+    console.log('Received prescriptions data:', response.data);
+    yield put({ type: 'SET_PRESCRIPTIONS_DATA', payload: response.data });
+  } catch (error) {
+    console.log('FETCH_PRESCRIPTIONS saga error:', error);
+    yield put({ type: 'FETCH_PRESCRIPTIONS_ERROR', payload: error.message });
+  }
+}
+
+// Watcher saga to watch for the FETCH_PRESCRIPTIONS action and trigger the worker saga
+export function* watchFetchPrescriptions() {
+  console.log('Watcher saga: watchFetchPrescriptions');
+  yield takeLatest('FETCH_PRESCRIPTIONS', fetchPrescriptionsSaga);
+}
+
+
+
+
 // Export the root saga
 export default function* chartSaga() {
   console.log('Root saga: chartSaga');
@@ -128,6 +150,7 @@ export default function* chartSaga() {
     watchFetchPatientVisits(),
     watchFetchLocations(),
     watchFetchPatientsUnique(),
+    watchFetchPrescriptions(),
   ]);
 }
 

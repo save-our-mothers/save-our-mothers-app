@@ -18,6 +18,9 @@ import Jvisits from '../Jvisits/Jvisits';
 import Prescriptions from '../TopMeds/TopMeds';
 import GeoMap from '../Jmap/Jmap';
 
+// import Prescriptions from '../TopMeds/Drugs';
+
+
 function LandingPage() {
   const [heading, setHeading] = useState('Safe Childbirth Foundation');
   const windowStatus = useSelector(store => store.landingPageReducers.windowStatus)

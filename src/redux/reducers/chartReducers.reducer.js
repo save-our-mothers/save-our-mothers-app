@@ -7,6 +7,8 @@ const initialGenderState = [];
 const initialPatientVisitsState = [];
 const initialLocationsState = [];
 const initialPatientsUniqueState = [];
+const initialPrescriptionsState = [];
+
 
 //*Reducer function for age data
 const ageReducer = (state = initialAgesState, action) => {
@@ -75,6 +77,20 @@ const locationsReducer = (state = initialLocationsState, action) => {
 };
 
 
+//* Reducer function for prescriptions data
+const prescriptionsReducer = (state = initialPrescriptionsState, action) => {
+  switch (action.type) {
+    case 'SET_PRESCRIPTIONS_DATA':
+      console.log('Setting prescriptions data:', action.payload);
+      return action.payload;
+    default:
+      return state;
+  }
+};
+
+
+
+
 console.log('Chart reducers loaded');
 
   // Reducers go here
@@ -85,6 +101,8 @@ const chartReducers = combineReducers({
   patientVisitsData: patientVisitsReducer,
   patientsUniqueData: patientsUniqueReducer,
   locations: locationsReducer,
+  prescriptionsData: prescriptionsReducer,
+
 
 });
 
