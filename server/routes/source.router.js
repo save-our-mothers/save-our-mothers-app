@@ -60,7 +60,7 @@ router.get('/', async (req, res) => {
         `;
 
         for await (let prescription of data.prescriptions) {
-            db.query(queryText, [prescription.drug, prescription.Prescriptions]);
+            db.query(queryText, [prescription.Name, prescription.Prescriptions]);
         }
 
         queryText = `
@@ -69,8 +69,9 @@ router.get('/', async (req, res) => {
         `;
 
         await db.query(queryText, ["5 and Under", data.ages["5 and Under"]]);
-        await db.query(queryText, ["5 to 9", data.ages["5 to 9"]]);
-        await db.query(queryText, ["10 and Over", data.ages["10 and Over"]]);
+        await db.query(queryText, ["6 to 17", data.ages["6 to 17"]]);
+        await db.query(queryText, ["18 to 30", data.ages["18 to 30"]]);
+        await db.query(queryText, ["30+", data.ages["30+"]]);
 
         // If no errors, all queries will be committed to datbase
         await db.query('COMMIT');
