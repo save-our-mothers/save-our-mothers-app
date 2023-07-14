@@ -27,8 +27,23 @@ INSERT INTO "prescriptions" ("drug_name") VALUES ('Metronidazole & Norfloxacin S
 INSERT INTO "prescriptions" ("drug_name") VALUES ('Ceftriaxone Injection 1g');
 INSERT INTO "prescriptions" ("drug_name") VALUES ('Ringer Lactate Solution 500ml');
 
+-- Added alter table codes ---
+ALTER TABLE prescriptions ADD COLUMN count INT;
+UPDATE prescriptions SET count = 0 WHERE count IS NULL;
+UPDATE prescriptions SET count = 0 WHERE count IS NULL;
+-- Set dummy values for the count column
+UPDATE prescriptions SET count = 10 WHERE drug_name = 'Amoxicillin Cap 500mg';
+UPDATE prescriptions SET count = 5 WHERE drug_name = 'Paracetamol Tab 500mg';
+UPDATE prescriptions SET count = 15 WHERE drug_name = 'Amoxicillin Cap/Tab 250mg';
+UPDATE prescriptions SET count = 19 WHERE drug_name ='Ferro Sulfate Tab';
+UPDATE prescriptions SET count = 75 WHERE drug_name ='Magnesium Trisilicate 500mg';
+UPDATE prescriptions SET count = 25 WHERE drug_name ='Ceftriaxone Injection 1g';
+UPDATE prescriptions SET count = 8 WHERE drug_name ='Metronidazole Tab 200mg';
+UPDATE prescriptions SET count = 11 WHERE drug_name ='Ceftriaxone Injection 1g';
+UPDATE prescriptions SET count = 55 WHERE drug_name ='Ringer Lactate Solution 500ml';
+UPDATE prescriptions SET count = 35 WHERE drug_name ='Amoxicillin Syrup 250/125mg'
 
-
+-- Base code
 CREATE TABLE "locations" (
 	"id" SERIAL PRIMARY KEY,
 	"neighborhood" VARCHAR NOT NULL,

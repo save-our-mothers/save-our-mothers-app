@@ -17,6 +17,8 @@ import FamilySize from '../Jfam/Jfam';
 import Jvisits from '../Jvisits/Jvisits';
 import Prescriptions from '../TopMeds/TopMeds';
 import GeoMap from '../Jmap/Jmap';
+// import Prescriptions from '../TopMeds/Drugs'; 
+// Julie's code above
 
 function LandingPage() {
   const [heading, setHeading] = useState('Safe Childbirth Foundation');
@@ -42,7 +44,6 @@ function LandingPage() {
                 <div className="view-border" onClick={(e) => expandWindow(e, '#-of-patients')} >
                   {/* Something isn't working here -gd */}
                   <Jvisits />
-                  <h3>Something isn't working with this component -GD</h3>
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>

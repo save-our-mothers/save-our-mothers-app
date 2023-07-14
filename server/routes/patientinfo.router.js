@@ -21,8 +21,6 @@ router.get('/ages', (req, res) => {
       res.sendStatus(500);
     });
 });
-
-// testing -gd
  
 
 //* GET Gender
@@ -129,25 +127,29 @@ router.get('/geo-location', (req, res) => {
 });
 //* GET Top 10 Prescriptions
 router.get('/prescriptions', (req, res) => {
-  console.log(`In Prescriptions`) // testing -gd
-  // GET query will go here. Will finish once the query is completed. -gd
-  const queryText = 
-  
-    `SELECT * FROM prescriptions`;
-  
-
-  pool.query(queryText, [req.user.id]) // req.user.id can change accordingly -gd
+  console.log(`In Top 10 Prescriptions GET /prescriptions`);
+  const queryText = `
+    SELECT drug_name, COUNT(*) AS count
+    FROM prescriptions
+    GROUP BY drug_name
+    ORDER BY count DESC
+    LIMIT 10
+  `;
+  pool.query(queryText)
     .then((result) => {
+      console.log('GET /prescriptions result:', result.rows);
       res.send(result.rows);
-    }).catch(error => {
-      console.log(`ERROR in GET Prescriptions: ${error}`);
-      res.sendStatus(500);
     })
-}); // end Prescriptions
+    .catch((error) => {
+      console.log(`ERROR in GET Top 10 Prescriptions: ${error}`);
+      res.sendStatus(500);
+    });
+});
+// end Prescriptions
 
 //* GET # of Patients
 router.get('/#-of-patients', (req, res) => {
-  console.log(`In # of Patients`) // testing -gd
+  console.log(`In # of Patients`)
   // GET query will go here. Will finish once the query is completed. -gd
   const queryText = `
     

@@ -13,6 +13,7 @@ import Jvisits from '../Jvisits/Jvisits';
 import Jmap from '../Jmap/Jmap';
 import Junique from '../Junique/Junique';
 import TopMeds from '../TopMeds/TopMeds';
+import Drugs from '../TopMeds/Drugs';
 
 function Content() {
   const chartType = useSelector(store => store.landingPageReducers.chartType);
@@ -31,8 +32,6 @@ function Content() {
       <div className="popup">
         {
           chartType === 'age' ? (
-
-
             <div className="content-div">
               <h3>Age</h3>
               <p>
@@ -48,7 +47,7 @@ function Content() {
           ) : chartType === 'gender' ? (
             <div className="content-div">
               <h3>Gender</h3>
-          <Junique />
+              <Junique />
               <Jgender />
             </div>
           ) : chartType === 'family-size' ? (
@@ -58,6 +57,8 @@ function Content() {
             </div>
           ) : chartType === 'prescriptions' ? (
             <div className="content-div">
+              {/* <Drugs /> */}
+              {/* Julie's code block above */}
               <TopMeds />
             </div>
           ) : chartType === 'map' ? (
@@ -68,7 +69,7 @@ function Content() {
           ) : chartType === '#-of-patients' ? (
             <div className="content-div">
               <h3>Number of Patients</h3>
-             <Jvisits/>
+              <Jvisits />
               <Stack direction="row" spacing={1}>
                 <b>View Over Time:</b>
                 <Button color="success" variant="contained" size="small" >Weekly</Button>
