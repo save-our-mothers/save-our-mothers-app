@@ -49,6 +49,7 @@ ORDER BY date_d.year ASC;
 
 
 --! This is for creating the date dimension table to join our queries on
+-- credit https://gist.github.com/sunnycmf/131a10a17d226e2ffb69
 
 -- CREATE TABLE dashboard_numbers_small (number INT);
 -- INSERT INTO dashboard_numbers_small VALUES (0),(1),(2),(3),(4),(5),(6),(7),(8),(9);
