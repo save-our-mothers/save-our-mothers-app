@@ -4,7 +4,7 @@ SELECT
   COUNT(CASE WHEN `sex` = 'Male' THEN 1 END) AS "Male",
   COUNT(CASE WHEN `sex` = 'Female' THEN 1 END) AS "Female",
   COUNT(CASE WHEN `sex` = 'UNK' THEN 1 END) AS "Unknown"
-FROM patient_data;
+FROM `patient_data`;
 
 -- Query for getting count of patients from each unique neighborhood and city combination
 -- NOTE: Does not account for weekly, monthly, yearly queries
@@ -41,11 +41,11 @@ FROM `patient_data`;
 -- Given a date dimension table `date_d` shown below, this returns all appointments
 -- with a status of 'arrived' or 'arrived late' along with the year, date, week of year, month of year,
 -- and quarter. 
-SELECT date_d.year, `apptdate`, date_d.week_of_year, date_d.month_of_year, date_d.quarter
+SELECT dashboard_date_d.year, `apptdate`, dashboard_date_d.week_of_year, dashboard_date_d.month_of_year, dashboard_date_d.quarter
 FROM `patient_tracker`
 JOIN `patient_tracker_element` ON `id` = `pt_tracker_id` AND `status` = '@' OR '~'
-JOIN `date_d` ON `apptdate` = date_d.date
-ORDER BY date_d.year ASC;
+JOIN `date_d` ON `apptdate` = dashboard_date_d.date
+ORDER BY dashboard_date_d.year ASC;
 
 
 --! This is for creating the date dimension table to join our queries on
