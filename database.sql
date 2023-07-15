@@ -30,7 +30,9 @@ INSERT INTO "prescriptions" ("drug_name") VALUES ('Metronidazole & Norfloxacin S
 INSERT INTO "prescriptions" ("drug_name") VALUES ('Ceftriaxone Injection 1g');
 INSERT INTO "prescriptions" ("drug_name") VALUES ('Ringer Lactate Solution 500ml');
 
+
 -- Table for "locations"
+
 CREATE TABLE "locations" (
 	"id" INT GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1 MINVALUE 1 MAXVALUE 1000),
 	"neighborhood" VARCHAR NOT NULL,
