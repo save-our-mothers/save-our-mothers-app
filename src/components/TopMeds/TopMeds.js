@@ -1,19 +1,40 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import axios from 'axios';
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 
+ChartJS.register(ArcElement, Tooltip, Legend);
+
 function TopMeds() {
-    ChartJS.register(ArcElement, Tooltip, Legend);
+  const topMedications = useSelector((state) => state.chartReducers.topMedications);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('/api/prescriptions');
+        const data = response.data;
+        dispatch({ type: 'FETCH_TOP_MEDS_SUCCESS', payload: data });
+      } catch (error) {
+        console.log('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, [dispatch]);
 
   const data = {
-    labels: ['Label 1', 'Label 2', 'Label 3', 'Label 4', 'Label 5', 'Label 6', 'Label 7', 'Label 8', 'Label 9', 'Label 10'],
+    labels: topMedications.map((med) => med.label),
     datasets: [
       {
-        data: [10, 20, 30, 15, 5, 12, 8, 18, 25, 17], // Array of 10 values
+        data: topMedications.map((med) => med.value),
         backgroundColor: ['#999999', '#EFF700', '#FFCE56', '#33FFF0', '#9966FF', '#36610D', '#FF0000', '#00FF00', '#0000FF', '#FF00FF'],
       },
     ],
   };
+
+    
 
   const options = {
     title: {
