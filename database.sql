@@ -5,17 +5,20 @@
 -- ex. SELECT * FROM "user";
 -- Otherwise you will have errors!
 
-
+-- Table for "user"
 CREATE TABLE "user" (
     "id" SERIAL PRIMARY KEY,
     "username" VARCHAR (80) UNIQUE NOT NULL,
     "password" VARCHAR (1000) NOT NULL
 );
 
+-- Table for "prescriptions"
 CREATE TABLE "prescriptions" (
-	"id" SERIAL PRIMARY KEY,
+	"id" INT GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1 MINVALUE 1 MAXVALUE 1000),
 	"drug_name" VARCHAR NOT NULL,
 	"count" INT);
+
+-- Dummy data for table "prescriptions"
 INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Amoxicillin Cap 500mg','300');
 INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Paracetamol Tab 500mg', '255');
 INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Amoxicillin Cap/Tab 250mg', '178');
@@ -28,14 +31,16 @@ INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Ceftriaxone Injection
 INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Ringer Lactate Solution 500ml', '22');
 
 
+-- Table for "locations"
 
 CREATE TABLE "locations" (
-	"id" SERIAL PRIMARY KEY,
+	"id" INT GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1 MINVALUE 1 MAXVALUE 1000),
 	"neighborhood" VARCHAR NOT NULL,
 	"city" VARCHAR NOT NULL,
 	"count" INT NOT NULL
 );
 
+-- Dummy data for table "locations"
 INSERT INTO locations (neighborhood, city, count) VALUES
   ('Neighborhood 1', 'City A', 20),
   ('Neighborhood 2', 'City B', 15),
@@ -44,42 +49,26 @@ INSERT INTO locations (neighborhood, city, count) VALUES
   ('Neighborhood 5', 'City B', 18),
   ('Neighborhood 6', 'City C', 12);
 
-
-
-
-
-
+-- Table for "patients_unique"
 CREATE TABLE "patients_unique" (
-	"id" SERIAL PRIMARY KEY,
+	"id" INT GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1 MINVALUE 1 MAXVALUE 1000),
 	"count" INT NOT NULL,
 	"gender" VARCHAR NOT NULL
 );
+
+-- Dummy data for "patients_unique"
 INSERT INTO "patients_unique" ("count", "gender") VALUES (60, 'Male');
 INSERT INTO "patients_unique" ("count", "gender") VALUES (70, 'Female');
 INSERT INTO "patients_unique" ("count", "gender") VALUES (30, 'Other');
 
-
-
--- CREATE TABLE "patient_visits" (
--- 	"id" SERIAL PRIMARY KEY,
--- 	"count" INT NOT NULL,
--- 	"type" VARCHAR NOT NULL
--- );
--- INSERT INTO "patient_visits" ("count", "type") VALUES (15, 'Routine Check-up');
--- INSERT INTO "patient_visits" ("count", "type") VALUES (10, 'Specialist Appointment');
--- INSERT INTO "patient_visits" ("count", "type") VALUES (5, 'Emergency Visit');
-
--- SELECT SUM("count") AS total_patients FROM "patients_unique";
--- SELECT "type", "count" FROM "patient_visits";
-
-
-
-
+-- Table for "family_size"
 CREATE TABLE "family_size" (
-	"id" SERIAL PRIMARY KEY,
+	"id" INT GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1 MINVALUE 1 MAXVALUE 1000),
 	"range" VARCHAR NOT NULL,
 	"count" INT NOT NULL
 );
+
+-- Dummy data for table "family_size"
 INSERT INTO "family_size" ("range", "count") VALUES ('1-2', 30);
 INSERT INTO "family_size" ("range", "count") VALUES ('3-4', 25);
 INSERT INTO "family_size" ("range", "count") VALUES ('5-6', 16);
@@ -87,12 +76,14 @@ INSERT INTO "family_size" ("range", "count") VALUES ('7+', 10);
 
 SELECT "range", "count" FROM "family_size";
 
-
+-- Table for "ages"
 CREATE TABLE "ages" (
-	"id" SERIAL PRIMARY KEY,
+	"id" INT GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1 MINVALUE 1 MAXVALUE 1000),
 	"range" VARCHAR NOT NULL,
 	"count" INT NOT NULL
 );
+
+-- Dummy data for table "ages"
 INSERT INTO "ages" ("range", "count") VALUES ('0-10', 50);
 INSERT INTO "ages" ("range", "count") VALUES ('11-20', 35);
 INSERT INTO "ages" ("range", "count") VALUES ('21-30', 20);
@@ -100,8 +91,7 @@ INSERT INTO "ages" ("range", "count") VALUES ('31-40', 15);
 INSERT INTO "ages" ("range", "count") VALUES ('41-50', 10);
 INSERT INTO "ages" ("range", "count") VALUES ('51+', 5);
 
-
-
+-- Table for patient_visits
 CREATE TABLE patient_visits (
   id INT GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1 MINVALUE 1 MAXVALUE 1000),
   year INT NOT NULL,

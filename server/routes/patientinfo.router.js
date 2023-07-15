@@ -21,8 +21,6 @@ router.get('/ages', (req, res) => {
       res.sendStatus(500);
     });
 });
-
-// testing -gd
  
 
 //* GET Gender
@@ -137,16 +135,19 @@ router.get('/prescriptions', (req, res) => {
 
   pool.query(queryText) 
     .then((result) => {
+      console.log('GET /prescriptions result:', result.rows);
       res.send(result.rows);
-    }).catch(error => {
-      console.log(`ERROR in GET Prescriptions: ${error}`);
-      res.sendStatus(500);
     })
-}); // end Prescriptions
+    .catch((error) => {
+      console.log(`ERROR in GET Top 10 Prescriptions: ${error}`);
+      res.sendStatus(500);
+    });
+});
+// end Prescriptions
 
 //* GET # of Patients
 router.get('/#-of-patients', (req, res) => {
-  console.log(`In # of Patients`) // testing -gd
+  console.log(`In # of Patients`)
   // GET query will go here. Will finish once the query is completed. -gd
   const queryText = `
     
