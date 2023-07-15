@@ -129,14 +129,13 @@ router.get('/geo-location', (req, res) => {
 });
 //* GET Top 10 Prescriptions
 router.get('/prescriptions', (req, res) => {
-  console.log(`In Prescriptions`) // testing -gd
-  // GET query will go here. Will finish once the query is completed. -gd
+  console.log(`In Prescriptions`) 
   const queryText = 
   
     `SELECT * FROM prescriptions`;
   
 
-  pool.query(queryText, [req.user.id]) // req.user.id can change accordingly -gd
+  pool.query(queryText) 
     .then((result) => {
       res.send(result.rows);
     }).catch(error => {

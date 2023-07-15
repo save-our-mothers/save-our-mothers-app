@@ -25,14 +25,16 @@ function TopMeds() {
   }, [dispatch]);
 
   const data = {
-    labels: topMedications.map((med) => med.label),
+    labels: topMedications.map((med) => med.drug_name),
     datasets: [
       {
-        data: topMedications.map((med) => med.value),
+        data: topMedications.map((med) => med.count),
         backgroundColor: ['#999999', '#EFF700', '#FFCE56', '#33FFF0', '#9966FF', '#36610D', '#FF0000', '#00FF00', '#0000FF', '#FF00FF'],
       },
     ],
   };
+  console.log(topMedications);
+  console.log(data.labels);
 
     
 
@@ -41,13 +43,13 @@ function TopMeds() {
       display: true,
       text: 'Pie Chart',
       fontSize: 20,
-      fontColor: '#333',
+      fontColor: '#fff',
     },
     legend: {
       display: true,
       position: 'bottom',
       labels: {
-        fontColor: '#333',
+        fontColor: '#fff',
       },
     },
     tooltips: {
