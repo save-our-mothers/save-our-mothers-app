@@ -37,14 +37,20 @@ SELECT
 FROM `patient_data`; 
 
 
--- Query for getting patient visits
+-- Queries for getting patient visits
 -- Given a date dimension table `date_d` shown below, this returns all appointments
 -- with a status of 'arrived' or 'arrived late' along with the year, date, week of year, month of year,
 -- and quarter. 
 SELECT dashboard_date_d.year, `apptdate`, dashboard_date_d.week_of_year, dashboard_date_d.month_of_year, dashboard_date_d.quarter
-FROM `patient_tracker`
-JOIN `patient_tracker_element` ON `id` = `pt_tracker_id` AND `status` = '@' OR '~'
-JOIN `date_d` ON `apptdate` = dashboard_date_d.date
+FROM patient_tracker
+JOIN patient_tracker_element ON `id` = `pt_tracker_id` AND `status` = '@' OR '~'
+JOIN dashboard_date_d ON `apptdate` = dashboard_date_d.date
+ORDER BY dashboard_date_d.year ASC;
+
+-- this one gets encounters which are stored separately but count toward totals the same
+SELECT dashboard_date_d.year, form_encounter.date AS "encounter date", dashboard_date_d.week_of_year, dashboard_date_d.month_of_year, dashboard_date_d.quarter
+FROM form_encounter
+JOIN dashboard_date_d ON DATE(form_encounter.date) = dashboard_date_d.date
 ORDER BY dashboard_date_d.year ASC;
 
 
@@ -80,7 +86,7 @@ ORDER BY dashboard_date_d.year ASC;
 -- UNIQUE KEY `date` (`date`));
 
 -- -- First populate with ids and Date
--- -- Change year start and end to match your needs. The above sql creates records for year 2010.
+-- -- Change year start and end to match your needs. The sql creates records thru the year 2028.
 -- INSERT INTO dashboard_date_d (date_id, date)
 -- SELECT number, DATE_ADD( '2014-01-01', INTERVAL number DAY )
 -- FROM dashboard_numbers
