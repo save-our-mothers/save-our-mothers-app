@@ -349,6 +349,24 @@ export function* watchFetchLocations() {
   yield takeLatest('FETCH_LOCATIONS', fetchLocationsSaga);
 }
 
+// top 10 meds saga
+function* fetchMeds() {
+  // get Meds from DB
+  try {
+    console.log('test meds saga');
+    const response = yield axios.get('/api/prescriptions');
+    console.log('get Top Meds saga', response.data);
+    yield put({ type: 'SET_MEDS', payload: response.data });
+} catch (e) {
+    console.log('get top Meds SAGA');
+   }
+
+}
+
+function* medsListSaga() {
+  yield takeLatest('FETCH_MEDS', fetchMeds);
+}
+
 // Export the root saga
 export default function* chartSaga() {
   console.log('Root saga: chartSaga');
@@ -359,6 +377,7 @@ export default function* chartSaga() {
     watchFetchPatientVisits(),
     watchFetchLocations(),
     watchFetchPatientsUnique(),
+    medsListSaga(),
   ]);
 }
 

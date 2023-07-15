@@ -19,16 +19,16 @@ CREATE TABLE "prescriptions" (
 	"count" INT);
 
 -- Dummy data for table "prescriptions"
-INSERT INTO "prescriptions" ("drug_name") VALUES ('Amoxicillin Cap 500mg');
-INSERT INTO "prescriptions" ("drug_name") VALUES ('Paracetamol Tab 500mg');
-INSERT INTO "prescriptions" ("drug_name") VALUES ('Amoxicillin Cap/Tab 250mg');
-INSERT INTO "prescriptions" ("drug_name") VALUES ('Ferro Sulfate Tab');
-INSERT INTO "prescriptions" ("drug_name") VALUES ('Magnesium Trisilicate 500mg');
-INSERT INTO "prescriptions" ("drug_name") VALUES ('Metronidazole Tab 200mg');
-INSERT INTO "prescriptions" ("drug_name") VALUES ('Amoxicillin Syrup 250/125mg');
-INSERT INTO "prescriptions" ("drug_name") VALUES ('Metronidazole & Norfloxacin Syrup 100mg/5ml');
-INSERT INTO "prescriptions" ("drug_name") VALUES ('Ceftriaxone Injection 1g');
-INSERT INTO "prescriptions" ("drug_name") VALUES ('Ringer Lactate Solution 500ml');
+INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Amoxicillin Cap 500mg','300');
+INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Paracetamol Tab 500mg', '255');
+INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Amoxicillin Cap/Tab 250mg', '178');
+INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Ferro Sulfate Tab', '160');
+INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Magnesium Trisilicate 500mg','105');
+INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Metronidazole Tab 200mg', '98');
+INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Amoxicillin Syrup 250/125mg', '80');
+INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Metronidazole & Norfloxacin Syrup 100mg/5ml', '65');
+INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Ceftriaxone Injection 1g', '45');
+INSERT INTO "prescriptions" ("drug_name","count") VALUES ('Ringer Lactate Solution 500ml', '22');
 
 
 -- Table for "locations"

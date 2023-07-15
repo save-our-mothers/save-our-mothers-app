@@ -127,15 +127,13 @@ router.get('/geo-location', (req, res) => {
 });
 //* GET Top 10 Prescriptions
 router.get('/prescriptions', (req, res) => {
-  console.log(`In Top 10 Prescriptions GET /prescriptions`);
-  const queryText = `
-    SELECT drug_name, COUNT(*) AS count
-    FROM prescriptions
-    GROUP BY drug_name
-    ORDER BY count DESC
-    LIMIT 10
-  `;
-  pool.query(queryText)
+  console.log(`In Prescriptions`) 
+  const queryText = 
+  
+    `SELECT * FROM prescriptions`;
+  
+
+  pool.query(queryText) 
     .then((result) => {
       console.log('GET /prescriptions result:', result.rows);
       res.send(result.rows);
