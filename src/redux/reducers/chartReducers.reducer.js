@@ -7,6 +7,7 @@ const initialGenderState = [];
 const initialPatientVisitsState = [];
 const initialLocationsState = [];
 const initialPatientsUniqueState = [];
+const initialMedsState = [];
 
 //*Reducer function for age data
 const ageReducer = (state = initialAgesState, action) => {
@@ -74,6 +75,16 @@ const locationsReducer = (state = initialLocationsState, action) => {
   }
 };
 
+const topMedsReducer = (state = initialMedsState, action) => {
+  switch (action.type) {
+    case 'FETCH_TOP_MEDS_SUCCESS':
+      return action.payload;
+    default:
+      return state;
+  }
+};
+
+
 
 console.log('Chart reducers loaded');
 
@@ -85,6 +96,7 @@ const chartReducers = combineReducers({
   patientVisitsData: patientVisitsReducer,
   patientsUniqueData: patientsUniqueReducer,
   locations: locationsReducer,
+  topMedications: topMedsReducer,
 
 });
 
