@@ -22,10 +22,6 @@ function Nav() {
             User Page
           </Link>
           {/* <LogOutButton className="navLink" /> */}
-          {/* We can remove this Link if not needed -gd */}
-          <Link className="navLink" to="/info">
-            Info Page
-          </Link>
         </>
       )}
       <Link className="navLink" to="/about">
