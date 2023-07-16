@@ -4,6 +4,8 @@ import { useSelector, useDispatch } from 'react-redux'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import './Content.css'
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { grey } from '@mui/material/colors';
 
 
 import Julie from '../Jchart/Jchart';
@@ -19,6 +21,14 @@ function Content() {
   const chartType = useSelector(store => store.landingPageReducers.chartType);
   const windowStatus = useSelector(store => store.landingPageReducers.windowStatus);
   const dispatch = useDispatch();
+
+  const theme = createTheme({
+    palette: {
+      error: {
+        main: grey[500]
+      }
+    }
+  })
 
   const closeWindow = () => {
     if (windowStatus === true) {
@@ -86,7 +96,9 @@ function Content() {
           )
         }
       </div>
+      <ThemeProvider theme={theme}>
       <Button color="error" variant="outlined" size="small" className="close-btn" onClick={closeWindow}>close</Button>
+      </ThemeProvider>
     </div>
   )
 }
