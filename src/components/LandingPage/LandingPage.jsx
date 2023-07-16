@@ -14,7 +14,7 @@ import Content from './Content.jsx'
 import AgeChart from '../Jchart/Jchart';
 import GenderChart from '../Jgender/Jgender';
 import FamilySize from '../Jfam/Jfam';
-import Jvisits from '../Jvisits/Jvisits';
+import Jvisits from '../Jvisits/JvisitsOverall';
 import Prescriptions from '../TopMeds/TopMeds';
 import GeoMap from '../Jmap/Jmap';
 // import Prescriptions from '../TopMeds/Drugs'; 

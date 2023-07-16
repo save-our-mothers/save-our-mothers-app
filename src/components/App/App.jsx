@@ -22,7 +22,8 @@ import TopMeds from '../TopMeds/TopMeds';
 import Julie from '../Jchart/Jchart';
 import Jfam from '../Jfam/Jfam';
 import Jgender from '../Jgender/Jgender';
-import Jvisits from '../Jvisits/Jvisits';
+import Jvisits from '../Jvisits/JvisitsOverall';
+
 import Jmap from '../Jmap/Jmap';
 import Junique from '../Junique/Junique';
 

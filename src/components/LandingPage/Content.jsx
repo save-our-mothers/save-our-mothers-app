@@ -11,7 +11,11 @@ import { grey } from '@mui/material/colors';
 import Julie from '../Jchart/Jchart';
 import Jfam from '../Jfam/Jfam';
 import Jgender from '../Jgender/Jgender';
-import Jvisits from '../Jvisits/Jvisits';
+import Jvisits from '../Jvisits/JvisitsOverall';
+import QuarterlyView from '../Jvisits/QuarterlyView';
+import WeeklyView from '../Jvisits/WeeklyView';
+import AnnualView from '../Jvisits/AnnualView';
+
 import Jmap from '../Jmap/Jmap';
 import Junique from '../Junique/Junique';
 import TopMeds from '../TopMeds/TopMeds';
@@ -36,6 +40,7 @@ function Content() {
       dispatch({ type: 'TOGGLE_WINDOW_STATUS' });
     }
     dispatch({ type: 'SET_CHART_TYPE', payload: '' });
+    setButtonValue('')
   }
 
   const handleButtonValue = (e, val) => {
@@ -79,14 +84,28 @@ function Content() {
           ) : chartType === '#-of-patients' ? (
             <div className="content-div">
               <h3>Number of Patients</h3>
-              <Jvisits buttonValue={buttonValue}/>
+
+              
+              {
+                buttonValue === 'weekly' ? (
+                  <WeeklyView buttonValue={buttonValue}/>
+                ) : buttonValue === 'monthly' ? (
+                  <h1>Missing Monthly View -gd</h1>
+                ) : buttonValue === 'quarterly' ? (
+                  <QuarterlyView buttonValue={buttonValue}/>
+                ) : buttonValue === 'annually' ? (
+                  <AnnualView buttonValue={buttonValue}/>
+                ) : (
+                  <Jvisits buttonValue={buttonValue}/>
+                )
+              }
               <Stack direction="row" spacing={1}>
                 <b>View Over Time:</b>
                 <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'weekly')}>Weekly</Button>
                 <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'monthly')}>Monthly</Button>
                 <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'quarterly')}>Quarterly</Button>
-                <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'Annually')}>Annually</Button>
-                <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'Overall')}>Overall</Button>
+                <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'annually')}>Annually</Button>
+                <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'overall')}>Overall</Button>
               </Stack>
             </div>
           ) : (
