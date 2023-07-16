@@ -65,7 +65,7 @@ function LandingPage() {
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
-                <p>Top 10 Prescriptions Graph</p>
+                <p>Top 10 Prescriptions</p>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'prescriptions')} >
                   <Prescriptions />
                 </div>
