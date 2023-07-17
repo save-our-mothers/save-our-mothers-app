@@ -102,7 +102,7 @@ function Content() {
               <Stack direction="row" spacing={1}>
                 <b>View Over Time:</b>
                 <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'weekly')}>Weekly</Button>
-                <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'monthly')}>Monthly</Button>
+                {/* <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'monthly')}>Monthly</Button> */}
                 <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'quarterly')}>Quarterly</Button>
                 <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'annually')}>Annually</Button>
                 <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'overall')}>Overall</Button>
