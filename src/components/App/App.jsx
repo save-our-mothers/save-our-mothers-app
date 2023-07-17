@@ -15,23 +15,26 @@ import InfoPage from '../InfoPage/InfoPage';
 import LandingPage from '../LandingPage/LandingPage';
 import LoginPage from '../LoginPage/LoginPage';
 import RegisterPage from '../RegisterPage/RegisterPage';
-import TopMeds from '../TopMeds/TopMeds';
-
 import './App.css';
 
 
+import TopMeds from '../TopMeds/TopMeds';
 import Julie from '../Jchart/Jchart';
 import Jfam from '../Jfam/Jfam';
 import Jgender from '../Jgender/Jgender';
-import Jvisits from '../Jvisits/Jvisits';
+import Jvisits from '../Jvisits/JvisitsOverall';
+
 import Jmap from '../Jmap/Jmap';
 import Junique from '../Junique/Junique';
+
 
 function App() {
   const dispatch = useDispatch();
 
   const user = useSelector(store => store.user);
   const windowStatus = useSelector(store => store.landingPageReducers.windowStatus);
+
+  
 
   if (windowStatus === true) {
     document.body.classList.add('active-blur')
@@ -44,6 +47,7 @@ function App() {
   }, [dispatch]);
 
   return (
+    
     <Router>
         <Nav />
         {/* Added to help keep the pages uniform with the navbar on the left. -gd */}

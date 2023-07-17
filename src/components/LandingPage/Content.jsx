@@ -1,15 +1,21 @@
 import React from 'react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import './Content.css'
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { grey } from '@mui/material/colors';
 
 
 import Julie from '../Jchart/Jchart';
 import Jfam from '../Jfam/Jfam';
 import Jgender from '../Jgender/Jgender';
-import Jvisits from '../Jvisits/Jvisits';
+import Jvisits from '../Jvisits/JvisitsOverall';
+import QuarterlyView from '../Jvisits/QuarterlyView';
+import WeeklyView from '../Jvisits/WeeklyView';
+import AnnualView from '../Jvisits/AnnualView';
+
 import Jmap from '../Jmap/Jmap';
 import Junique from '../Junique/Junique';
 import TopMeds from '../TopMeds/TopMeds';
@@ -19,12 +25,27 @@ function Content() {
   const chartType = useSelector(store => store.landingPageReducers.chartType);
   const windowStatus = useSelector(store => store.landingPageReducers.windowStatus);
   const dispatch = useDispatch();
+  const [buttonValue, setButtonValue] = useState('')
+
+  const theme = createTheme({
+    palette: {
+      error: {
+        main: grey[500]
+      }
+    }
+  })
 
   const closeWindow = () => {
     if (windowStatus === true) {
       dispatch({ type: 'TOGGLE_WINDOW_STATUS' });
     }
     dispatch({ type: 'SET_CHART_TYPE', payload: '' });
+    setButtonValue('')
+  }
+
+  const handleButtonValue = (e, val) => {
+    setButtonValue(val);
+    console.log(val)
   }
 
   return (
@@ -37,12 +58,6 @@ function Content() {
               <p>
                 <Julie />
               </p>
-              <Stack direction="row" spacing={1}>
-                <b>View by Age Range:</b>
-                <Button color="success" variant="contained" size="small" >5 - 17</Button>
-                <Button color="success" variant="contained" size="small" >18 - 30</Button>
-                <Button color="success" variant="contained" size="small" >Over 30</Button>
-              </Stack>
             </div>
           ) : chartType === 'gender' ? (
             <div className="content-div">
@@ -69,14 +84,28 @@ function Content() {
           ) : chartType === '#-of-patients' ? (
             <div className="content-div">
               <h3>Number of Patients</h3>
-              <Jvisits />
+
+              
+              {
+                buttonValue === 'weekly' ? (
+                  <WeeklyView buttonValue={buttonValue}/>
+                ) : buttonValue === 'monthly' ? (
+                  <h1>Missing Monthly View -gd</h1>
+                ) : buttonValue === 'quarterly' ? (
+                  <QuarterlyView buttonValue={buttonValue}/>
+                ) : buttonValue === 'annually' ? (
+                  <AnnualView buttonValue={buttonValue}/>
+                ) : (
+                  <Jvisits buttonValue={buttonValue}/>
+                )
+              }
               <Stack direction="row" spacing={1}>
                 <b>View Over Time:</b>
-                <Button color="success" variant="contained" size="small" >Weekly</Button>
-                <Button color="success" variant="contained" size="small" >Monthly</Button>
-                <Button color="success" variant="contained" size="small" >Quarterly</Button>
-                <Button color="success" variant="contained" size="small" >Annually</Button>
-                <Button color="success" variant="contained" size="small" >Overall</Button>
+                <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'weekly')}>Weekly</Button>
+                <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'monthly')}>Monthly</Button>
+                <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'quarterly')}>Quarterly</Button>
+                <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'annually')}>Annually</Button>
+                <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'overall')}>Overall</Button>
               </Stack>
             </div>
           ) : (
@@ -86,7 +115,9 @@ function Content() {
           )
         }
       </div>
+      <ThemeProvider theme={theme}>
       <Button color="error" variant="outlined" size="small" className="close-btn" onClick={closeWindow}>close</Button>
+      </ThemeProvider>
     </div>
   )
 }

@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import axios from 'axios';
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+import './TopMeds.css';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -72,7 +73,7 @@ function TopMeds() {
   };
 
   return (
-    <div style={{ width: '500px', height: '450px', position: 'relative', left: '28%', top: '-3em'}}>
+    <div style={{ width: '50%', height: '450px', position: 'relative', left: '28%', top: '-6em'}}>
       <h3>10 Most Prescribed Medications  </h3>
 
       <Pie data={data} options={options} />
