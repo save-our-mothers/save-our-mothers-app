@@ -10,17 +10,18 @@ router.get('/', async (req, res) => {
     // ! The below axios request has been commented out temporarily because the function app
     // ! is not yet connected to a live MySQL database.
     // ! So in the meantime, a sample response object response is being used from the response.js file
-    // axios.get(`https://saveourmothers.azurewebsites.net/api/openemr?code=${process.env.api_key}`)
-    //     .then(response => {
-    //         console.log(response.data);
-    //         router.post('/', emrResponse);
-    //     }).catch(error => {
-    //         console.log(`Error in GET: ${error}`);
-    //         res.sendStatus(500);
-    //     });
+    axios.get(`https://somnow-reports.azurewebsites.net/api/openemr?code=${process.env.api_key}`)
+        .then(response => {
+            console.log(response.data);
+            data = response.data.data;
+        }).catch(error => {
+            console.log(`Error in GET: ${error}`);
+            res.sendStatus(500);
+        });
 
     // In production, data will be set equal to the axios response from above
-    data = emrResponse.data;
+    // data = emrResponse.data;
+
     // connect to PostGreSQL database
     const db = await pool.connect();
     const tables = [
