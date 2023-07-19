@@ -15,6 +15,7 @@ import Jvisits from '../Jvisits/JvisitsOverall';
 import QuarterlyView from '../Jvisits/QuarterlyView';
 import WeeklyView from '../Jvisits/WeeklyView';
 import AnnualView from '../Jvisits/AnnualView';
+import MonthlyView from '../Jvisits/MonthlyView';
 
 import Jmap from '../Jmap/Jmap';
 import Junique from '../Junique/Junique';
@@ -90,7 +91,7 @@ function Content() {
                 buttonValue === 'weekly' ? (
                   <WeeklyView buttonValue={buttonValue}/>
                 ) : buttonValue === 'monthly' ? (
-                  <h1>Missing Monthly View -gd</h1>
+                  <MonthlyView />
                 ) : buttonValue === 'quarterly' ? (
                   <QuarterlyView buttonValue={buttonValue}/>
                 ) : buttonValue === 'annually' ? (
@@ -102,7 +103,7 @@ function Content() {
               <Stack direction="row" spacing={1}>
                 <b>View Over Time:</b>
                 <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'weekly')}>Weekly</Button>
-                {/* <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'monthly')}>Monthly</Button> */}
+                <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'monthly')}>Monthly</Button>
                 <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'quarterly')}>Quarterly</Button>
                 <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'annually')}>Annually</Button>
                 <Button color="success" variant="contained" size="small" onClick={e => handleButtonValue(e, 'overall')}>Overall</Button>
