@@ -1,9 +1,9 @@
 module.exports = {
     "data": {
         "patients": {
-            "Total Patients": 1155,
-            "Male": 377,
-            "Female": 778,
+            "Total Patients": 1197,
+            "Male": 391,
+            "Female": 806,
             "Unknown": 0
         },
         "locations": [
@@ -15,7 +15,7 @@ module.exports = {
             {
                 "Neighborhood": "Bulajaan",
                 "city": "Merca",
-                "Patients": 138
+                "Patients": 152
             },
             {
                 "Neighborhood": "Nurtataliyow",
@@ -35,12 +35,12 @@ module.exports = {
             {
                 "Neighborhood": "Nurta Taliyow",
                 "city": "Merca",
-                "Patients": 30
+                "Patients": 31
             },
             {
                 "Neighborhood": "Bulajan",
                 "city": "Merca",
-                "Patients": 23
+                "Patients": 24
             },
             {
                 "Neighborhood": "Nurta Taliyo",
@@ -58,14 +58,24 @@ module.exports = {
                 "Patients": 20
             },
             {
+                "Neighborhood": "Bulkudka",
+                "city": "Merca",
+                "Patients": 19
+            },
+            {
                 "Neighborhood": "Nurtaliyow",
                 "city": "Merca",
                 "Patients": 19
             },
             {
-                "Neighborhood": "Bulkudka",
+                "Neighborhood": "Wacunenaa",
                 "city": "Merca",
-                "Patients": 18
+                "Patients": 17
+            },
+            {
+                "Neighborhood": "Wacuneyna",
+                "city": "Merca",
+                "Patients": 16
             },
             {
                 "Neighborhood": "Wacunynaa",
@@ -73,14 +83,9 @@ module.exports = {
                 "Patients": 16
             },
             {
-                "Neighborhood": "Wacunenaa",
+                "Neighborhood": "N.taliyoo",
                 "city": "Merca",
                 "Patients": 16
-            },
-            {
-                "Neighborhood": "Wacuneyna",
-                "city": "Merca",
-                "Patients": 15
             },
             {
                 "Neighborhood": "Beyturaaz",
@@ -93,13 +98,13 @@ module.exports = {
                 "Patients": 13
             },
             {
-                "Neighborhood": "Bulajan",
-                "city": "",
-                "Patients": 12
-            },
-            {
                 "Neighborhood": "Wacunena",
                 "city": "Merca",
+                "Patients": 13
+            },
+            {
+                "Neighborhood": "Bulajan",
+                "city": "",
                 "Patients": 12
             },
             {
@@ -118,7 +123,7 @@ module.exports = {
                 "Patients": 10
             },
             {
-                "Neighborhood": "N.taliyoo",
+                "Neighborhood": "N.taliyo",
                 "city": "Merca",
                 "Patients": 9
             },
@@ -178,12 +183,12 @@ module.exports = {
                 "Patients": 6
             },
             {
-                "Neighborhood": "Wadajir",
+                "Neighborhood": "Buufow",
                 "city": "Merca",
                 "Patients": 6
             },
             {
-                "Neighborhood": "N.taliyo",
+                "Neighborhood": "Wadajir",
                 "city": "Merca",
                 "Patients": 6
             },
@@ -198,7 +203,7 @@ module.exports = {
                 "Patients": 5
             },
             {
-                "Neighborhood": "Buufow",
+                "Neighborhood": "B.kuudka",
                 "city": "Merca",
                 "Patients": 5
             },
@@ -278,6 +283,11 @@ module.exports = {
                 "Patients": 4
             },
             {
+                "Neighborhood": "Nurtaliyow",
+                "city": "Unassigned",
+                "Patients": 4
+            },
+            {
                 "Neighborhood": "Shemateri",
                 "city": "Merca",
                 "Patients": 4
@@ -318,7 +328,7 @@ module.exports = {
                 "Patients": 3
             },
             {
-                "Neighborhood": "B.kuudka",
+                "Neighborhood": "Juujum",
                 "city": "Merca",
                 "Patients": 3
             },
@@ -368,7 +378,7 @@ module.exports = {
                 "Patients": 3
             },
             {
-                "Neighborhood": "Nurtaliyow",
+                "Neighborhood": "Beytaras",
                 "city": "Unassigned",
                 "Patients": 3
             },
@@ -425,6 +435,11 @@ module.exports = {
             {
                 "Neighborhood": "Buljan",
                 "city": "Marko",
+                "Patients": 2
+            },
+            {
+                "Neighborhood": "Ceeljaale",
+                "city": "Merca",
                 "Patients": 2
             },
             {
@@ -500,11 +515,6 @@ module.exports = {
             {
                 "Neighborhood": "Ismaquule",
                 "city": "Merca",
-                "Patients": 2
-            },
-            {
-                "Neighborhood": "Beytaras",
-                "city": "Unassigned",
                 "Patients": 2
             },
             {
@@ -698,11 +708,6 @@ module.exports = {
                 "Patients": 1
             },
             {
-                "Neighborhood": "Ceeljaale",
-                "city": "Merca",
-                "Patients": 1
-            },
-            {
                 "Neighborhood": "Ismanqunle",
                 "city": "Marko",
                 "Patients": 1
@@ -785,11 +790,6 @@ module.exports = {
             {
                 "Neighborhood": "Ismanqunle",
                 "city": "Unassigned",
-                "Patients": 1
-            },
-            {
-                "Neighborhood": "Juujum",
-                "city": "Merca",
                 "Patients": 1
             },
             {
@@ -1226,25 +1226,45 @@ module.exports = {
                 "Neighborhood": "Digwariiri",
                 "city": "Merca",
                 "Patients": 1
+            },
+            {
+                "Neighborhood": "N.taliiyo",
+                "city": "Merca",
+                "Patients": 1
+            },
+            {
+                "Neighborhood": "Abasiiwo",
+                "city": "Merca",
+                "Patients": 1
+            },
+            {
+                "Neighborhood": "Abasoowo",
+                "city": "Merca",
+                "Patients": 1
+            },
+            {
+                "Neighborhood": "Wacnena",
+                "city": "Merca",
+                "Patients": 1
             }
         ],
         "ages": {
-            "5 and Under": 566,
-            "6 to 17": 83,
-            "18 to 30": 306,
-            "30+": 154
+            "5 and Under": 581,
+            "6 to 17": 86,
+            "18 to 30": 319,
+            "30+": 162
         },
         "prescriptions": [
             {
-                "Prescriptions": 184,
+                "Prescriptions": 195,
                 "Name": "Paracetamol 500mg tablets Pack"
             },
             {
-                "Prescriptions": 153,
+                "Prescriptions": 171,
                 "Name": "Ferrous Sulfate"
             },
             {
-                "Prescriptions": 151,
+                "Prescriptions": 153,
                 "Name": "Amoxycillin Cup 500mg"
             },
             {
@@ -1252,34 +1272,16402 @@ module.exports = {
                 "Name": "Paracetamol 500mg Tin"
             },
             {
-                "Prescriptions": 68,
+                "Prescriptions": 70,
                 "Name": "Metronidazole 200mg"
             },
             {
-                "Prescriptions": 63,
+                "Prescriptions": 66,
+                "Name": "Paracetamol 100mg tin"
+            },
+            {
+                "Prescriptions": 64,
                 "Name": "Chlorpheniramine 4mg"
             },
             {
-                "Prescriptions": 61,
+                "Prescriptions": 63,
                 "Name": "Omeprazole Capsules 20mg (enteric coated)"
             },
             {
-                "Prescriptions": 59,
-                "Name": "Paracetamol 100mg tin"
+                "Prescriptions": 51,
+                "Name": "Amoxycillin Capsule Tablet 250mg"
             },
             {
                 "Prescriptions": 48,
                 "Name": "leavamisole 40mgtab"
-            },
-            {
-                "Prescriptions": 46,
-                "Name": "Magnesium Trisilicate 500mg"
             }
         ],
         "familySize": {
-            "1 to 5": 693,
-            "5 to 10": 561,
-            "10+": 34
-        }
+            "1 to 5": 715,
+            "5 to 10": 587,
+            "10+": 37
+        },
+        "encounters": [
+            {
+                "year": 2022,
+                "encounter date": "2022-12-18T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-18T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-19T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-19T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-19T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-19T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-19T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-19T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-19T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-20T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-20T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-20T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-20T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-24T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-24T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-24T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-24T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2022,
+                "encounter date": "2022-12-24T05:00:00.000Z",
+                "week_of_year": "51",
+                "month_of_year": "12",
+                "quarter": 4
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-02T05:00:00.000Z",
+                "week_of_year": "01",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-02T05:00:00.000Z",
+                "week_of_year": "01",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-03T05:00:00.000Z",
+                "week_of_year": "01",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-03T05:00:00.000Z",
+                "week_of_year": "01",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-03T05:00:00.000Z",
+                "week_of_year": "01",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-04T05:00:00.000Z",
+                "week_of_year": "01",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-07T05:00:00.000Z",
+                "week_of_year": "01",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-09T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-09T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-10T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-10T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-10T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-10T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-11T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-11T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-11T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-11T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-11T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-11T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-11T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-14T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-14T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-14T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-14T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-14T05:00:00.000Z",
+                "week_of_year": "02",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-16T05:00:00.000Z",
+                "week_of_year": "03",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-22T05:00:00.000Z",
+                "week_of_year": "04",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-23T05:00:00.000Z",
+                "week_of_year": "04",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-23T05:00:00.000Z",
+                "week_of_year": "04",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-23T05:00:00.000Z",
+                "week_of_year": "04",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-23T05:00:00.000Z",
+                "week_of_year": "04",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-23T05:00:00.000Z",
+                "week_of_year": "04",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-24T05:00:00.000Z",
+                "week_of_year": "04",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-24T05:00:00.000Z",
+                "week_of_year": "04",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-24T05:00:00.000Z",
+                "week_of_year": "04",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-25T05:00:00.000Z",
+                "week_of_year": "04",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-25T05:00:00.000Z",
+                "week_of_year": "04",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-25T05:00:00.000Z",
+                "week_of_year": "04",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-29T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-29T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-29T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-29T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-29T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-29T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-29T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-29T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-29T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-29T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-29T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-30T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-01-31T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "01",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-04T05:00:00.000Z",
+                "week_of_year": "05",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-05T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-06T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-07T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-08T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-11T05:00:00.000Z",
+                "week_of_year": "06",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-12T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-13T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-14T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-14T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-14T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-15T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-18T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-18T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-18T05:00:00.000Z",
+                "week_of_year": "07",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-21T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-22T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-25T05:00:00.000Z",
+                "week_of_year": "08",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-26T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-27T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-02-28T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "02",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-01T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-04T05:00:00.000Z",
+                "week_of_year": "09",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-05T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-06T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-07T05:00:00.000Z",
+                "week_of_year": "10",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-19T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-19T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-19T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-19T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-19T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-19T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-19T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-19T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-19T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-19T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-19T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-19T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-20T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-20T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-20T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-20T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-20T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-20T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-21T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-21T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-21T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-21T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-21T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-21T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-21T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-21T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-22T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-22T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-22T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-25T04:00:00.000Z",
+                "week_of_year": "12",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-26T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-27T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-28T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-03-29T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "03",
+                "quarter": 1
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-01T04:00:00.000Z",
+                "week_of_year": "13",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-02T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-03T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-04T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-05T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-08T04:00:00.000Z",
+                "week_of_year": "14",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-09T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-10T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-10T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-10T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-10T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-10T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-10T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-10T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-10T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-10T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-11T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-12T04:00:00.000Z",
+                "week_of_year": "15",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-29T04:00:00.000Z",
+                "week_of_year": "17",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-04-30T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "04",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-01T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-01T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-01T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-01T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-01T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-01T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-01T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-01T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-01T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-01T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-01T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-01T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-03T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-03T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-03T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-03T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-03T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-03T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-03T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-03T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-03T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-06T04:00:00.000Z",
+                "week_of_year": "18",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-07T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-08T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-08T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-08T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-08T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-08T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-08T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-08T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-08T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-08T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-08T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-08T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-09T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-09T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-09T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-09T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-09T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-10T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-13T04:00:00.000Z",
+                "week_of_year": "19",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-21T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-22T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-23T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-24T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-27T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-27T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-27T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-27T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-27T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-27T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-27T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-27T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-27T04:00:00.000Z",
+                "week_of_year": "21",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-28T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-28T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-28T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-28T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-28T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-28T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-28T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-28T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-28T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-28T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-28T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-28T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-29T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-29T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-29T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-29T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-29T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-29T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-30T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-30T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-30T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-30T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-30T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-30T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-30T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-30T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-05-31T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "05",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-03T04:00:00.000Z",
+                "week_of_year": "22",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-04T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-05T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-06T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-07T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-10T04:00:00.000Z",
+                "week_of_year": "23",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-11T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-12T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-13T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-14T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-17T04:00:00.000Z",
+                "week_of_year": "24",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-18T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-19T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-20T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-21T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-24T04:00:00.000Z",
+                "week_of_year": "25",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-25T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-06-26T04:00:00.000Z",
+                "week_of_year": "26",
+                "month_of_year": "06",
+                "quarter": 2
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-03T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-04T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-05T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-05T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-05T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-05T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-05T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-05T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-05T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-05T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-08T04:00:00.000Z",
+                "week_of_year": "27",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-09T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-10T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-11T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-12T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-15T04:00:00.000Z",
+                "week_of_year": "28",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-16T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-16T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-16T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-16T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-17T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-18T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            },
+            {
+                "year": 2023,
+                "encounter date": "2023-07-19T04:00:00.000Z",
+                "week_of_year": "29",
+                "month_of_year": "07",
+                "quarter": 3
+            }
+        ]
     }
 }
