@@ -7,8 +7,7 @@ const initialGenderState = [];
 const initialPatientVisitsState = [];
 const initialLocationsState = [];
 const initialPatientsUniqueState = [];
-const initialPrescriptionsState = [];
-
+const initialMedsState = [];
 
 //*Reducer function for age data
 const ageReducer = (state = initialAgesState, action) => {
@@ -76,18 +75,14 @@ const locationsReducer = (state = initialLocationsState, action) => {
   }
 };
 
-
-//* Reducer function for prescriptions data
-const prescriptionsReducer = (state = initialPrescriptionsState, action) => {
+const topMedsReducer = (state = initialMedsState, action) => {
   switch (action.type) {
-    case 'SET_PRESCRIPTIONS_DATA':
-      console.log('Setting prescriptions data:', action.payload);
+    case 'FETCH_TOP_MEDS_SUCCESS':
       return action.payload;
     default:
       return state;
   }
 };
-
 
 
 
@@ -101,8 +96,7 @@ const chartReducers = combineReducers({
   patientVisitsData: patientVisitsReducer,
   patientsUniqueData: patientsUniqueReducer,
   locations: locationsReducer,
-  prescriptionsData: prescriptionsReducer,
-
+  topMedications: topMedsReducer,
 
 });
 

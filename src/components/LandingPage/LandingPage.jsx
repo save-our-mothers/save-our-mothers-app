@@ -14,9 +14,11 @@ import Content from './Content.jsx'
 import AgeChart from '../Jchart/Jchart';
 import GenderChart from '../Jgender/Jgender';
 import FamilySize from '../Jfam/Jfam';
-import Jvisits from '../Jvisits/Jvisits';
+import Jvisits from '../Jvisits/JvisitsOverall';
 import Prescriptions from '../TopMeds/TopMeds';
 import GeoMap from '../Jmap/Jmap';
+// import Prescriptions from '../TopMeds/Drugs'; 
+// Julie's code above
 
 // import Prescriptions from '../TopMeds/Drugs';
 
@@ -45,7 +47,6 @@ function LandingPage() {
                 <div className="view-border" onClick={(e) => expandWindow(e, '#-of-patients')} >
                   {/* Something isn't working here -gd */}
                   <Jvisits />
-                  <h3>Something isn't working with this component -GD</h3>
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
@@ -67,7 +68,7 @@ function LandingPage() {
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
-                <p>Top 10 Prescriptions Graph</p>
+                <p>Top 10 Prescriptions</p>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'prescriptions')} >
                   <Prescriptions />
                 </div>
