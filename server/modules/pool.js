@@ -4,7 +4,8 @@
 
  change `prime_app` to the name of your database, and you should be all set!
 */
-
+require('dotenv').config();
+const fs = require('fs');
 const pg = require('pg');
 let pool;
 
@@ -26,10 +27,12 @@ if (process.env.DATABASE_URL) {
 // also running on our computer (localhost)
 else {
     pool = new pg.Pool({
-        host: 'localhost',
-        port: 5432,
-        database: 'test-database-somnow',   // 	💥 Change this to the name of your database!
+        host: process.env.DB_HOST,
+        port: process.env.DB_PORT,
+        user: process.env.DB_USER,
+        password: process.env.DB_PASSWORD,
+        database: process.env.DB_NAME,   // 	💥 Change this to the name of your database!
+        ssl: true
     });
 }
-
 module.exports = pool;

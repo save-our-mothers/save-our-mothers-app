@@ -22,12 +22,13 @@ To see the fully functional site, please visit: [DEPLOYED VERSION OF APP](insert
 
 ## Installation
 
-1. Create a database named `your database name`,
+1. Create a database named `your database name`.
 2. The queries in the `database.sql` file are set up to create all the necessary tables. The project is built on [Postgres](https://www.postgresql.org/download/), so you will need to make sure to have that installed.
-3. A button on the admin page triggers the Azure function app to retrieve the data. 
-4. Open up your editor of choice and run an `npm install`
-5. Create a .env file with SERVER_SESSION_SECRET=[a long random string]. This is for the PassPort library. 
-6. Run `npm run server` in your terminal
+3. At the bottom of `database.sql` are three tables that need to be made in the <b>openEMR database</b>: dashboard_numbers, dashboard_numbers_small, dashboard_date_d. These include UPDATEs and SETs to populate each table. 
+4. A button on the admin page triggers the Azure function app to retrieve the data. 
+5. Open up your editor of choice and run an `npm install`
+6. Create a .env file with SERVER_SESSION_SECRET=[a long random string]. This is for the PassPort library. 
+7. Run `npm run server` in your terminal
 8. The `npm run client` command will open up a new browser tab for you!
 
 ## Usage
