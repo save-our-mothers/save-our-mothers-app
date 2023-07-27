@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import axios from 'axios';
@@ -11,6 +10,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 function TopMeds() {
   const topMedications = useSelector((state) => state.chartReducers.topMedications);
   const dispatch = useDispatch();
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -21,8 +21,10 @@ function TopMeds() {
         console.log('Error fetching data:', error);
       }
     };
+
     fetchData();
   }, [dispatch]);
+
   const data = {
     labels: topMedications.map((med) => med.drug_name),
     datasets: [
@@ -34,7 +36,9 @@ function TopMeds() {
   };
   console.log(topMedications);
   console.log(data.labels);
+
     
+
   const options = {
     title: {
       display: true,
@@ -69,7 +73,6 @@ function TopMeds() {
   };
 
   return (
-
     <div style={{ width: '50%', height: '450px', position: 'relative', left: '28%', top: '-6em'}}>
       <h3>10 Most Prescribed Medications  </h3>
 
@@ -77,4 +80,5 @@ function TopMeds() {
     </div>
   );
 }
+
 export default TopMeds;

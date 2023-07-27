@@ -8,18 +8,19 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { grey } from '@mui/material/colors';
 
 
-import Julie from '../Jchart/Jchart';
-import Jfam from '../Jfam/Jfam';
-import Jgender from '../Jgender/Jgender';
+import Julie from '../AgeChart/AgeChart';
+import Jfam from '../FamChart/FamChart';
+import Jgender from '../GenderChart/GenderChart';
 import Jvisits from '../Jvisits/JvisitsOverall';
 import QuarterlyView from '../Jvisits/QuarterlyView';
 import WeeklyView from '../Jvisits/WeeklyView';
 import AnnualView from '../Jvisits/AnnualView';
 import MonthlyView from '../Jvisits/MonthlyView';
 
-import Jmap from '../Jmap/Jmap';
-import Junique from '../Junique/Junique';
+import Jmap from '../MapChart/MapChart';
+import Junique from '../UniqueVisit/UniqueVisit';
 import TopMeds from '../TopMeds/TopMeds';
+
 
 function Content() {
   const chartType = useSelector(store => store.landingPageReducers.chartType);

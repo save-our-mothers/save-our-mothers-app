@@ -19,13 +19,13 @@ import './App.css';
 
 
 import TopMeds from '../TopMeds/TopMeds';
-import Julie from '../Jchart/Jchart';
-import Jfam from '../Jfam/Jfam';
-import Jgender from '../Jgender/Jgender';
+import AgeChart from '../AgeChart/AgeChart';
+import Jfam from '../FamChart/FamChart';
+import Jgender from '../GenderChart/GenderChart';
 import Jvisits from '../Jvisits/JvisitsOverall';
 
-import Jmap from '../Jmap/Jmap';
-import Junique from '../Junique/Junique';
+import Jmap from '../MapChart/MapChart';
+import Junique from '../UniqueVisit/UniqueVisit';
 
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
   const user = useSelector(store => store.user);
   const windowStatus = useSelector(store => store.landingPageReducers.windowStatus);
 
-  
+
 
   if (windowStatus === true) {
     document.body.classList.add('active-blur')
@@ -47,11 +47,11 @@ function App() {
   }, [dispatch]);
 
   return (
-    
+
     <Router>
-        <Nav />
-        {/* Added to help keep the pages uniform with the navbar on the left. -gd */}
-        <div className="app-content-div">
+      <Nav />
+      {/* Added to help keep the pages uniform with the navbar on the left. -gd */}
+      <div className="app-content-div">
         <Switch>
           {/* Visiting localhost:3000 will redirect to localhost:3000/home */}
           <Redirect exact from="/" to="/home" />
@@ -72,7 +72,7 @@ function App() {
             <UserPage />
           </ProtectedRoute>
 
-          
+
 
           <ProtectedRoute
             // logged in shows InfoPage else shows LoginPage
@@ -106,7 +106,7 @@ function App() {
 
           <Route
             exact path="/home">
-              <LandingPage />
+            <LandingPage />
           </Route>
 
           <Route
@@ -115,24 +115,25 @@ function App() {
             <TopMeds />
           </Route>
 
- 
-          <Route exact path="/julie">
-            <Julie />
+
+          <Route exact path="/ageChart">
+            <AgeChart />
           </Route>
+
           <Route exact path="/jfam">
             <Jfam />
           </Route>
           <Route exact path="/jgender">
-            <Jgender/>
+            <Jgender />
           </Route>
           <Route exact path="/jvisits">
-            <Jvisits/>
+            <Jvisits />
           </Route>
           <Route exact path="/jmap">
-            <Jmap/>
+            <Jmap />
           </Route>
           <Route exact path="/junique">
-            <Junique/>
+            <Junique />
           </Route>
 
 
@@ -143,8 +144,8 @@ function App() {
             <h1>404</h1>
           </Route>
         </Switch>
-        </div>
-        <Footer />
+      </div>
+      <Footer />
     </Router>
   );
 }
