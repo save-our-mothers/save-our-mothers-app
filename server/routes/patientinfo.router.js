@@ -127,25 +127,27 @@ router.get('/geo-location', (req, res) => {
 });
 //* GET Top 10 Prescriptions
 router.get('/prescriptions', (req, res) => {
-  console.log(`In Prescriptions`) // testing -gd
-  // GET query will go here. Will finish once the query is completed. -gd
+  console.log(`In Prescriptions`) 
   const queryText = 
   
     `SELECT * FROM prescriptions`;
   
 
-  pool.query(queryText, [req.user.id]) // req.user.id can change accordingly -gd
+  pool.query(queryText) 
     .then((result) => {
+      console.log('GET /prescriptions result:', result.rows);
       res.send(result.rows);
-    }).catch(error => {
-      console.log(`ERROR in GET Prescriptions: ${error}`);
-      res.sendStatus(500);
     })
-}); // end Prescriptions
+    .catch((error) => {
+      console.log(`ERROR in GET Top 10 Prescriptions: ${error}`);
+      res.sendStatus(500);
+    });
+});
+// end Prescriptions
 
 //* GET # of Patients
-// router.get('/#-of-patients', (req, res) => {
-//   console.log(`In # of Patients`)
+router.get('/#-of-patients', (req, res) => {
+  console.log(`In # of Patients`)
   // GET query will go here. Will finish once the query is completed. -gd
   const queryText = `
     
@@ -157,8 +159,8 @@ router.get('/prescriptions', (req, res) => {
     }).catch(error => {
       console.log(`ERROR in GET # of Patients: ${error}`);
       res.sendStatus(500);
-    });
-// }); // end # of Patients
+    })
+}); // end # of Patients
 
 
 // TODO: POST Requests go here
@@ -269,8 +271,8 @@ router.put('/update', (req, res) => {
     }).catch((error) => {
       console.log(`ERROR in PUT: ${error}`)
       res.sendStatus(500);
-    });
-});
+    })
+})
 router.put('/ages/:id', (req, res) => {
   console.log('PUT /ages/:id with body:', req.body, 'and id:', req.params.id);
   const { id } = req.params;
@@ -309,8 +311,8 @@ router.delete('/delete', (req, res) => {
     }).catch((error) => {
       console.log(`ERROR in DELETE: ${error}`);
       res.sendStatus(500);
-    });
-});
+    })
+})
 
 router.delete('/ages/:id', (req, res) => {
   console.log('DELETE /ages/:id with id:', req.params.id);
@@ -348,4 +350,3 @@ router.delete('/patients-unique/:id', (req, res) => {
 });
 
 module.exports = router;
-
