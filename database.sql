@@ -367,3 +367,33 @@ SET year_total = 3600, week_1 = 260, week_2 = 280, week_3 = 300, week_4 = 320, w
     month_4 = 1360, month_5 = 1380, month_6 = 1400, month_7 = 1420, month_8 = 1440, month_9 = 1460, month_10 = 1480,
     month_11 = 1500, month_12 = 1520, Q_1 = 1540, Q_2 = 1560, Q_3 = 1580, Q_4 = 1600
 WHERE year = 2031;
+
+
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Amoxicillin Cap 500mg');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Paracetamol Tab 500mg');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Amoxicillin Cap/Tab 250mg');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Ferro Sulfate Tab');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Magnesium Trisilicate 500mg');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Metronidazole Tab 200mg');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Amoxicillin Syrup 250/125mg');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Metronidazole & Norfloxacin Syrup 100mg/5ml');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Ceftriaxone Injection 1g');
+INSERT INTO "prescriptions" ("drug_name") VALUES ('Ringer Lactate Solution 500ml');
+
+ALTER TABLE prescriptions ADD COLUMN count INT;
+UPDATE prescriptions SET count = 0 WHERE count IS NULL;
+UPDATE prescriptions SET count = 0 WHERE count IS NULL;
+
+
+
+-- Set dummy values for the count column
+UPDATE prescriptions SET count = 10 WHERE drug_name = 'Amoxicillin Cap 500mg';
+UPDATE prescriptions SET count = 5 WHERE drug_name = 'Paracetamol Tab 500mg';
+UPDATE prescriptions SET count = 15 WHERE drug_name = 'Amoxicillin Cap/Tab 250mg';
+UPDATE prescriptions SET count = 19 WHERE drug_name ='Ferro Sulfate Tab';
+UPDATE prescriptions SET count = 75 WHERE drug_name ='Magnesium Trisilicate 500mg';
+UPDATE prescriptions SET count = 25 WHERE drug_name ='Ceftriaxone Injection 1g';
+UPDATE prescriptions SET count = 8 WHERE drug_name ='Metronidazole Tab 200mg';
+UPDATE prescriptions SET count = 11 WHERE drug_name ='Ceftriaxone Injection 1g';
+UPDATE prescriptions SET count = 55 WHERE drug_name ='Ringer Lactate Solution 500ml';
+UPDATE prescriptions SET count = 35 WHERE drug_name ='Amoxicillin Syrup 250/125mg'

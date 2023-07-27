@@ -11,12 +11,12 @@ import Grid from '@mui/material/Grid';
 import Content from './Content.jsx'
 
 // Importing all charts and graphs -gd
-import AgeChart from '../Jchart/Jchart';
-import GenderChart from '../Jgender/Jgender';
-import FamilySize from '../Jfam/Jfam';
+import AgeChart from '../AgeChart/AgeChart';
+import GenderChart from '../GenderChart/GenderChart';
+import FamilySize from '../FamChart/FamChart';
 import Jvisits from '../Jvisits/JvisitsOverall';
 import Prescriptions from '../TopMeds/TopMeds';
-import GeoMap from '../Jmap/Jmap';
+import GeoMap from '../MapChart/MapChart';
 // import Prescriptions from '../TopMeds/Drugs'; 
 // Julie's code above
 
