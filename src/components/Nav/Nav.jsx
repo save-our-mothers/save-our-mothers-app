@@ -9,6 +9,10 @@ import SaveOurMothersLogo from './Logos/SaveOurMothersLogo.png'
 function Nav() {
   const user = useSelector((store) => store.user);
 
+  const somnowLink = () => {
+    location.href = "https://www.somnow.org/get_involved"
+  }
+
   return (
     <div className="navlinks">
       <img className="scf-logo" src={SafeChildbirthLogo} />
@@ -27,6 +31,7 @@ function Nav() {
       <Link className="navLink" to="/about">
         About
       </Link>
+      <button className="navLink" onClick={somnowLink}>somnow.org</button>
       <img className="som-logo" src={SaveOurMothersLogo} />
     </div>
   );

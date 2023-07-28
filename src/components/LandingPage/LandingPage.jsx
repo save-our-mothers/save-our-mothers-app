@@ -21,7 +21,6 @@ import GeoMap from '../MapChart/MapChart';
 // Julie's code above
 
 function LandingPage() {
-  const [heading, setHeading] = useState('Safe Childbirth Foundation');
   const windowStatus = useSelector(store => store.landingPageReducers.windowStatus)
   const dispatch = useDispatch();
 
@@ -33,47 +32,40 @@ function LandingPage() {
 
   return (
     <div className="container">
-      <h2>{heading}</h2>
+      <h2><center>Safe Childbirth Foundation | Bulajan Mother</center></h2>
 
       <Box sx={{ flexGrow: 1 }}>
         {
           windowStatus === false ? (
             <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
               <Grid item xs={2} sm={4} md={4}>
-                <p>Number of Patients Chart</p>
                 <div className="view-border" onClick={(e) => expandWindow(e, '#-of-patients')} >
-                  {/* Something isn't working here -gd */}
-                  <Jvisits />
+                  <h3><center>Number of Patients</center></h3>
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
-                <p>Age Graph</p>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'age')} >
-                  <AgeChart />
+                  <h3><center>Age Ranges</center></h3>
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
-                <p>Gender Graph</p>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'gender')} >
-                  <GenderChart />
+                <h3><center>Gender</center></h3>
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
-                <p>Family Size Graph</p>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'family-size')} >
-                  <FamilySize />
+                <h3><center>Family Sizes</center></h3>
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
-                <p>Top 10 Prescriptions</p>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'prescriptions')} >
-                  <Prescriptions />
+                <h3><center>Top 10 Medications</center></h3>
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
-                <p>Geo Location Map</p>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'map')} >
-                  <GeoMap />
+                <h3><center>Geo-Locations Map</center></h3>
                 </div>
               </Grid>
             </Grid>
