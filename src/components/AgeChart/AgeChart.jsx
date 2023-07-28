@@ -107,7 +107,6 @@ function AgeChart() {
 
   const option2 = {
     title: {
-      text: 'Age Range of Patients',
       subtext: '2020-2023',
       left: 'center',
       textStyle: {
