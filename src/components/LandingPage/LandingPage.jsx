@@ -32,7 +32,7 @@ function LandingPage() {
 
   return (
     <div className="container">
-      <h2><center>Safe Childbirth Foundation | Bulajan Mother</center></h2>
+      <h2><center><i>Safe Childbirth Foundation</i> | <i>Bulajan Mother</i></center></h2>
 
       <Box sx={{ flexGrow: 1 }}>
         {
