@@ -41,11 +41,17 @@ FROM `patient_data`;
 -- Given a date dimension table `date_d` shown below, this returns all appointments
 -- with a status of 'arrived' or 'arrived late' along with the year, date, week of year, month of year,
 -- and quarter. 
+-- SELECT dashboard_date_d.year, `apptdate`, dashboard_date_d.week_of_year, dashboard_date_d.month_of_year, dashboard_date_d.quarter
+-- FROM patient_tracker
+-- JOIN patient_tracker_element ON `id` = `pt_tracker_id` AND `status` = '@' OR '~'
+-- JOIN dashboard_date_d ON `apptdate` = dashboard_date_d.date
+-- ORDER BY dashboard_date_d.year ASC;
+
 SELECT dashboard_date_d.year, `apptdate`, dashboard_date_d.week_of_year, dashboard_date_d.month_of_year, dashboard_date_d.quarter
 FROM patient_tracker
-JOIN patient_tracker_element ON `id` = `pt_tracker_id` AND `status` = '@' OR '~'
 JOIN dashboard_date_d ON `apptdate` = dashboard_date_d.date
 ORDER BY dashboard_date_d.year ASC;
+
 
 -- this one gets encounters which are stored separately but count toward totals the same
 SELECT dashboard_date_d.year, form_encounter.date AS "encounter date", dashboard_date_d.week_of_year, dashboard_date_d.month_of_year, dashboard_date_d.quarter
