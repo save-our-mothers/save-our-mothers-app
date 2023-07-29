@@ -52,14 +52,12 @@ const yearsData = [
     {2026: y2026},
     {2027: y2027},
     {2028: y2028},
-    {2029: y2029},
-    {2030: y2030},
-    {2031: y2031},
 ];
 
 
 // updates each y20xx object with week, month, quarter, and year totals
 // loops over each visit object
+// will need to be run twice for response for appointments and response for encounters
 for (let visit of visitArray) {
     //pulls week, month, and quarter data
     let week = visit.week_of_year;
@@ -83,11 +81,11 @@ for (let visit of visitArray) {
     }
 }
 
-// console.log('2021', y2021);
-// console.log('2022', y2022);
-// console.log('2023', y2023);
-// console.log('2024', y2024);
-// console.log('2030', y2030);
+console.log('2021', y2021);
+console.log('2022', y2022);
+console.log('2023', y2023);
+console.log('2024', y2024);
+
 
 let visitsByYear = yearsData;
 
