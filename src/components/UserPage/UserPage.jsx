@@ -13,6 +13,10 @@ function UserPage() {
   const updateData = () => {
     axios.get('/api/openemr').then(response => {
       console.log(response);
+      alert('Data successfully udpated.')
+    }).catch(error => {
+      console.log('Error updating data:', error);
+      alert('Something went wrong.');
     });
   }
 
