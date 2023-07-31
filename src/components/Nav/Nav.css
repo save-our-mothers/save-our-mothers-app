@@ -12,6 +12,7 @@ Shouldn't be too difficult. -gd */
   overflow: hidden;
   position: fixed;
   height: 100%;
+  max-width: 95px;
 }
 
 .som-logo,
@@ -24,7 +25,6 @@ Shouldn't be too difficult. -gd */
   bottom: 0px;
 }
 
-/* The following has been untouched. -gd */
 .navLink {
   display: inline-block;
   color: #f2f2f2;
@@ -34,8 +34,6 @@ Shouldn't be too difficult. -gd */
   text-decoration: none;
   font-size: 15px;
 
-  /* these last two make the logout button in
-  the nav bar look like another link */
   border: none;
   cursor: pointer;
   outline: 0;
@@ -45,17 +43,3 @@ Shouldn't be too difficult. -gd */
   background-color: #68326b;
   transition: all .2s ease;
 }
-
-/* .chartContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: calc(100vh - 100px); /* Adjust the height as needed */
-  /* margin-top: 50px;
-  width: 90%; 
-}
-.chart { */
-  /* height: 400px; /* Adjust the height as needed */
-  /* margin-top: 20px; /* Adjust the margin-top as needed */
-  /* width: 90%; 
-/* } */ 
