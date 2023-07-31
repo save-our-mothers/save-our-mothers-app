@@ -44,6 +44,12 @@ router.get('/', async (req, res) => {
             db.query(`DELETE FROM ${table} WHERE id > 0;`);
         }
 
+        // Resets ids each time new data is retrieved
+        for await (let table of tables) {
+            db.query(`ALTER TABLE ${table} ALTER COLUMN id RESTART`)
+        };
+
+        //! Insert for patients_unique
         let queryText = `
             INSERT INTO patients_unique (count, gender)
             VALUES ($1, $2);
@@ -52,6 +58,7 @@ router.get('/', async (req, res) => {
         await db.query(queryText, [data.patients.Male, 'Male']);
         await db.query(queryText, [data.patients.Female, 'Female']);
 
+        //! Insert for locations
         queryText = `
             INSERT INTO locations (neighborhood, city, count)
             VALUES ($1, $2, $3);
@@ -60,6 +67,7 @@ router.get('/', async (req, res) => {
             db.query(queryText, [location.Neighborhood, location.city, location.Patients]);
         }
 
+        //! Insert for prescriptions
         queryText = `
             INSERT INTO prescriptions (drug_name, count)
             VALUES ($1, $2);
@@ -69,6 +77,7 @@ router.get('/', async (req, res) => {
             db.query(queryText, [prescription.Name, prescription.Prescriptions]);
         }
 
+        //! Insert for ages
         queryText = `
             INSERT INTO ages (range, count)
             VALUES ($1, $2);
@@ -78,6 +87,16 @@ router.get('/', async (req, res) => {
         await db.query(queryText, ["6 to 17", data.ages["6 to 17"]]);
         await db.query(queryText, ["18 to 30", data.ages["18 to 30"]]);
         await db.query(queryText, ["30+", data.ages["30+"]]);
+
+        //! Insert for family size
+        queryText = `
+            INSERT INTO family_size (range, count)
+            VALUES ($1, $2)
+        `;
+
+        await db.query(queryText, ["1 to 5", data.familySize["1 to 5"]]);
+        await db.query(queryText, ["5 to 10", data.familySize["5 to 10"]]);
+        await db.query(queryText, ["10+", data.familySize["10+"]]);
 
         //! Insert for patient_visits
         queryText = `
