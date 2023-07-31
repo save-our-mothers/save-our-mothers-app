@@ -44,6 +44,11 @@ router.get('/', async (req, res) => {
             db.query(`DELETE FROM ${table} WHERE id > 0;`);
         }
 
+        // Resets ids each time new data is retrieved
+        for await (let table of tables) {
+            db.query(`ALTER TABLE ${table} ALTER COLUMN id RESTART`)
+        };
+
         //! Insert for patients_unique
         let queryText = `
             INSERT INTO patients_unique (count, gender)
