@@ -27,7 +27,7 @@ jobs:
           npm run build --if-present
           
       - name: Zip all files for upload between jobs
-        run: zip react.zip ./*
+        run: zip react.zip ./* -r
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
