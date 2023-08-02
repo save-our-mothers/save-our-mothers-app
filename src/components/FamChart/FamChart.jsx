@@ -122,16 +122,6 @@ function Jfam() {
   const generateBarOption = () => {
     const option = {
       color: colorPalette,
-      title: {
-        text: 'Family Size Range',
-        textStyle: {
-          color: 'white',
-          fontSize: 16,
-          fontWeight: 'bold',
-        },
-        top: '5%',
-        left: 'center',
-      },
       tooltip: {
         trigger: 'axis',
         axisPointer: {

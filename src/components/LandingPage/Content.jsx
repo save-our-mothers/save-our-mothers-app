@@ -91,13 +91,15 @@ function Content() {
                 buttonValue === 'weekly' ? (
                   <WeeklyView buttonValue={buttonValue}/>
                 ) : buttonValue === 'monthly' ? (
-                  <MonthlyView />
+                  <MonthlyView buttonValue={buttonValue}/>
                 ) : buttonValue === 'quarterly' ? (
                   <QuarterlyView buttonValue={buttonValue}/>
                 ) : buttonValue === 'annually' ? (
                   <AnnualView buttonValue={buttonValue}/>
-                ) : (
+                ) : buttonValue === 'overall' ? (
                   <Jvisits buttonValue={buttonValue}/>
+                ) : (
+                  <MonthlyView buttonValue={buttonValue}/>
                 )
               }
               <Stack direction="row" spacing={1}>

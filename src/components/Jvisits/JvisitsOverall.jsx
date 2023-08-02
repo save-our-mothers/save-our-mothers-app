@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 
+>>>>>>> 43db2bb0de764210fac275ca8b32a03e45741fe5
 // ! overall 2020-2024 line and pie 
 import React, { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
@@ -102,14 +105,6 @@ function Jvisits({buttonValue}) {
 
     const option2 = {
       backgroundColor: 'transparent',
-      title: {
-        text: 'Overall Patient Visits Since 2021',
-        left: 'center',
-        top: 20,
-        textStyle: {
-          color: 'white',
-        },
-      },
       tooltip: {
         trigger: 'item',
         formatter: '{a} <br/>{b}: {c} ({d}%)',
