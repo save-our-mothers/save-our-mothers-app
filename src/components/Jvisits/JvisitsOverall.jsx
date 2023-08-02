@@ -133,7 +133,7 @@ function Jvisits({buttonValue}) {
     const chartDom2 = chartRef2.current;
     const myChart2 = echarts.init(chartDom2);
 
-    const overallData = chartData.filter(item => item.year >= 2020 && item.year <= 2024);
+    const overallData = chartData.filter(item => item.year >= 2020 && item.year <= 2031);
 
     overallData.sort((a, b) => a.year - b.year); // Sort the data in ascending order based on the year
 
