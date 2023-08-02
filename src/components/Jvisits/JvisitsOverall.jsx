@@ -133,14 +133,14 @@ function Jvisits({buttonValue}) {
     const chartDom2 = chartRef2.current;
     const myChart2 = echarts.init(chartDom2);
 
-    const overallData = chartData.filter(item => item.year >= 2020 && item.year <= 2024);
+    const overallData = chartData.filter(item => item.year >= 2021 && item.year <= 2028);
 
     overallData.sort((a, b) => a.year - b.year); // Sort the data in ascending order based on the year
 
     const option1 = {
       backgroundColor: 'transparent',
       title: {
-        text: 'Overall Patient Visits - 2020 to 2024',
+        text: 'Overall Patient Visits Since 2021',
         left: 'center',
         top: 20,
         textStyle: {
@@ -206,7 +206,7 @@ function Jvisits({buttonValue}) {
     const option2 = {
       backgroundColor: 'transparent',
       title: {
-        text: 'Overall Patient Visits - 2020 to 2024',
+        text: 'Overall Patient Visits Since 2021',
         left: 'center',
         top: 20,
         textStyle: {
