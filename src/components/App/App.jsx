@@ -92,7 +92,8 @@ function App() {
             }
           </Route>
 
-          <Route
+          {/* Disabled registration page. */}
+          {/* <Route
             exact path="/registration">
             {user.id ?
               // If the user is already logged in, 
@@ -102,7 +103,7 @@ function App() {
               // Otherwise, show the registration page
               <RegisterPage />
             }
-          </Route>
+          </Route> */}
 
           <Route
             exact path="/home">
