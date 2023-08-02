@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux'
 import './LandingPage.css';
 
@@ -10,15 +9,13 @@ import Grid from '@mui/material/Grid';
 // Content Import will hold all graphs, potentially -gd
 import Content from './Content.jsx'
 
-// Importing all charts and graphs -gd
-import AgeChart from '../AgeChart/AgeChart';
-import GenderChart from '../GenderChart/GenderChart';
-import FamilySize from '../FamChart/FamChart';
-import Jvisits from '../Jvisits/JvisitsOverall';
-import Prescriptions from '../TopMeds/TopMeds';
-import GeoMap from '../MapChart/MapChart';
-// import Prescriptions from '../TopMeds/Drugs'; 
-// Julie's code above
+// Images imported
+import agePic from './chartPics/agePic.png';
+import familySizePic from './chartPics/familySizePic.png';
+import genderPic from './chartPics/genderPic.png';
+import mapPic from './chartPics/mapPic.png';
+import medsPic from './chartPics/medsPic.png';
+import numberofPatientsPic from './chartPics/numberofPatientsPic.png';
 
 function LandingPage() {
   const windowStatus = useSelector(store => store.landingPageReducers.windowStatus)
@@ -32,7 +29,7 @@ function LandingPage() {
 
   return (
     <div className="container">
-      <h2><center><i>Safe Childbirth Foundation</i> | <i>Bulajan Mother</i></center></h2>
+      <h2><center><i>Safe Childbirth Foundation</i> | <i>Bulajan Mother's</i></center></h2>
 
       <Box sx={{ flexGrow: 1 }}>
         {
@@ -41,31 +38,37 @@ function LandingPage() {
               <Grid item xs={2} sm={4} md={4}>
                 <div className="view-border" onClick={(e) => expandWindow(e, '#-of-patients')} >
                   <h3><center>Number of Patients</center></h3>
+                  <img className="grid-img" src={numberofPatientsPic} alt="patients graph"/>
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'age')} >
                   <h3><center>Age Ranges</center></h3>
+                  <img className="grid-img" src={agePic} alt="age graph"/>
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'gender')} >
                 <h3><center>Gender</center></h3>
+                <img className="grid-img" src={genderPic} alt="gender graph"/>
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'family-size')} >
                 <h3><center>Family Sizes</center></h3>
+                <img className="grid-img" src={familySizePic} alt="family graph"/>
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'prescriptions')} >
                 <h3><center>Top 10 Medications</center></h3>
+                <img className="grid-img-meds" src={medsPic} alt="top 10 meds graph"/>
                 </div>
               </Grid>
               <Grid item xs={2} sm={4} md={4}>
                 <div className="view-border" onClick={(e) => expandWindow(e, 'map')} >
                 <h3><center>Geo-Locations Map</center></h3>
+                <img className="grid-img" src={mapPic} alt="geo map"/>
                 </div>
               </Grid>
             </Grid>
