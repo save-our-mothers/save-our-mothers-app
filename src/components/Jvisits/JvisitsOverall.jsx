@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 43db2bb0de764210fac275ca8b32a03e45741fe5
 // ! overall 2020-2024 line and pie 
 import React, { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
