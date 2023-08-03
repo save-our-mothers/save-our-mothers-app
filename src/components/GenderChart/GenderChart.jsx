@@ -1,7 +1,5 @@
 //GenderChart.jsx
-// ! graph 1
 import React, { useEffect, useRef, useState } from 'react';
-import { useSelector } from 'react-redux';
 import * as echarts from 'echarts';
 import axios from 'axios';
 
@@ -45,9 +43,6 @@ function Jgender() {
       toolbox: {
         show: true,
         feature: {
-          dataZoom: {
-            yAxisIndex: 'none',
-          },
           dataView: { readOnly: false },
           magicType: { type: ['line', 'bar'] },
           restore: {},
@@ -84,7 +79,6 @@ function Jgender() {
 
     myChart.setOption(option);
 
-    // Cleanup
     return () => {
       myChart.dispose();
     };
@@ -94,4 +88,4 @@ function Jgender() {
 }
 
 export default Jgender;
-// ! end 1
+
