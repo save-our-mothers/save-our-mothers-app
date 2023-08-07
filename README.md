@@ -10,7 +10,7 @@ This application will allow users to view general data that reflects the efforts
 
 This project has two components. A web app that stores aggregated data in its database and displays the data in graph format and an Azure function app that queries the openEMR database to get aggregated data. Login will be required for an admin to refresh the data (triggering the function app) but viewing the charts and graphs does not require login.
 
-To see the fully functional site, please visit: [DEPLOYED VERSION OF APP](insert link)
+To see the fully functional site, please visit: [DEPLOYED VERSION OF APP](https://somnow-emr.azurewebsites.net/#/home)
 
 ## Screen Shots
 
@@ -19,6 +19,8 @@ To see the fully functional site, please visit: [DEPLOYED VERSION OF APP](insert
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/)
+- The companion [function app](https://github.com/save-our-mothers/openemr) deployed in SOMNOW's Azure environment
+- The function app queries the production database and returns the aggregated data that is put into the PostgreSQL database
 
 ## Installation
 
@@ -46,7 +48,7 @@ PG
 MUI
 ChartJS
 Apache Echarts
-MySQL 2 and [insert SSH library] for the function app. 
+MySQL 2 and ssh2 for the function app. 
 
 ## Acknowledgement
 Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped us to make this application a reality. Thank you to the Tanzanite cohort and team Save Our Mothers. Thank you to Save Our Mothers for trusting us to build this application for you. 
